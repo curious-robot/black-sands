@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.286.4"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=nwt,o=EDI,dc=ecoinformatics,dc=org</principal>
+         <permission>read</permission>
+         <permission>write</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/ee4298a90e8947a0402123d2caf16f5c</alternateIdentifier><shortName>Black Sand pollination</shortName>
+      <title>Pollinator visitation, flower count, and seed set in Black Sand plots, 2020.</title>
+      <creator>
+         <individualName>
+            <givenName>Annika</givenName>
+            <surName>Rose-Person</surName>
+         </individualName>
+         <electronicMailAddress>arose012@ucr.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0009-0001-0192-0445</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Marko J.</givenName>
+            <surName>Spasojevic</surName>
+         </individualName>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-1808-0048</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Chiara C.</givenName>
+            <surName>Forrester</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>William D.</givenName>
+            <surName>Bowman</surName>
+         </individualName>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-4381-5245</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Katharine N.</givenName>
+            <surName>Suding</surName>
+         </individualName>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0002-5357-0176</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Meagan F.</givenName>
+            <surName>Oldfather</surName>
+         </individualName>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-3256-4786</userId>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Nicole E.</givenName>
+            <surName>Rafferty</surName>
+         </individualName>
+         <userId
+      directory="https://orcid.org">https://orcid.org/0000-0002-6350-1705</userId>
+      </creator>
+      <pubDate>2024-09-03</pubDate>
+      <language>English</language>
+      <abstract>
+         <para>
+    Anthropogenic climate change is altering interactions among numerous
+    species, including plants and pollinators. Plant-pollinator
+    interactions, crucial for the persistence of most plant and many
+    insect species, are threatened by climate change-driven phenological
+    shifts. Phenological mismatches between plants and their pollinators
+    may affect pollination services, and simulations indicated that
+    these mismatches may reduce floral resources available to up to 50%
+    of insect pollinator species. Although alpine plants rely heavily on
+    vegetative reproduction, seedling recruitment and seed dispersal are
+    likely to be important drivers of alpine community structure.
+    Similarly, advanced flowering may expose plants to increased risk of
+    frost damage and shifted soil moisture regimes; phenologically
+    advanced plants will experience these environmental factors
+    differently, which may alter their floral resource production. These
+    effects may be dependent upon topography. Some species of alpine
+    plants on the Niwot Ridge have displayed advanced phenology under
+    treatments of advanced snowmelt (Forrester, 2021). However, little
+    is understood about how these differences in distribution and
+    phenology affect pollinator community composition and plant
+    fecundity. Here we strive to examine how experimentally-induced
+    changes in the timing of flowering and number of flowers produced by
+    plants impact plant-pollinator interactions and seed set. We also
+    ask how topography and the number of flowers interact with early
+    snowmelt to affect pollination rates and the diversity of
+    pollinating insects. Finally, we ask how seed set of Geum rossii is
+    affected by pollinator visitation at different times of the season,
+    under experimentally advanced snowmelt versus unmanipulated
+    snowmelt, and with visitation by different insect taxa. In summer
+    2020, we found that plots with advanced phenology experienced peaks
+    in pollinator visitation rates and pollinator diversity earlier than
+    plots with unmanipulated snowmelt. We expect this to be because of
+    the advanced floral phenology of certain key species in these plots.
+  </para>
+         <para>
+    References:
+  </para>
+         <para>
+    Forrester, C.C. (2021). Advancing, Using, and Teaching Climate
+    Change Ecology Research. [Doctoral dissertation, University of
+    Colorado, Boulder]. ProQuest Dissertations and Theses.
+  </para>
+      </abstract>
+      <keywordSet>
+         <keyword>aboveground production</keyword>
+         <keyword>albedo</keyword>
+         <keyword>alpine</keyword>
+         <keyword>arthropods</keyword>
+         <keyword>climate change</keyword>
+         <keyword>community patterns</keyword>
+         <keyword>ecology</keyword>
+         <keyword>flowering</keyword>
+         <keyword>flowers</keyword>
+         <keyword>insects</keyword>
+         <keyword>phenology</keyword>
+         <keyword>plant ecology</keyword>
+         <keyword>warming</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>populations</keyword>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Niwot Ridge LTER</keyword>
+         <keyword>NWT</keyword>
+      </keywordSet>
+      <intellectualRights>
+         <para>
+    This information is released under the Creative Commons license -
+    Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+    The consumer of these data (“Data User” herein) is required to cite
+    it appropriately in any publication that results from its use. The
+    Data User should realize that these data may be actively used by
+    others for ongoing research and that coordination may be necessary
+    to prevent duplicate publication. The Data User is urged to contact
+    the authors of these data if any questions about methodology or
+    results occur. Where appropriate, the Data User is encouraged to
+    consider collaboration or co-authorship with the authors. The Data
+    User should realize that misinterpretation of data may occur if used
+    out of context of the original study. While substantial efforts are
+    made to ensure the accuracy of data and associated documentation,
+    complete accuracy of data sets cannot be guaranteed. All data are
+    made available "as is." The Data User should be aware,
+    however, that data are updated periodically and it is the
+    responsibility of the Data User to check for new versions of the
+    data. The data authors and the repository where these data were
+    obtained shall not be liable for damages resulting from any use or
+    misinterpretation of the data. Thank you.
+  </para>
+      </intellectualRights>
+      <licensed>
+         <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+         <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+         <identifier>CC-BY-4.0</identifier>
+      </licensed>
+      <distribution
+      id="10.6073/pasta/ee4298a90e8947a0402123d2caf16f5c" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/ee4298a90e8947a0402123d2caf16f5c</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>Audubon</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.5907</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.5902</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.06154</northBoundingCoordinate>
+               <southBoundingCoordinate>40.06119</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>EastKnoll</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.5863</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.5858</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.05393</northBoundingCoordinate>
+               <southBoundingCoordinate>40.0535</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Lefty</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.5769</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.5765</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.05615</northBoundingCoordinate>
+               <southBoundingCoordinate>40.05576</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Trough</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.5825</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.5821</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.05009</northBoundingCoordinate>
+               <southBoundingCoordinate>40.04969</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2020-06-11</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2020-09-02</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Achillea millefolium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Acrididae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Agoseris glauca</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Allium geyeri</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Antennaria</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Antennaria media</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Antennaria rosea</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Anthomyiidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Apidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Aquilegia coerulea</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Arenaria fendleri</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Artemisia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Artemisia scopulorum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Bedelliidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Bistort bistortoides</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Bistort viviparum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Bistorta bistortoides</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Bombyliidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Bombylius</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Braconidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Calliphoridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Caltha leptosepala</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Campanula rotundifolia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Castilleja occidentalis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Cerambycidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Cerastium arvense</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Chionophila jamesii</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Chloropidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Cicadellidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Colletidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Conopidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Order</taxonRankName>
+               <taxonRankValue>Diptera</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Dodecatheon pulchellum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Draba</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Empididae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Ephydridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Erigeron</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Erigeron glacialis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Erigeron melanocephalus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Erigeron pinnatisectus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Erigeron simplex</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Eritrichium nanum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Erysimum capitatum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Eulophidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Eurytomidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Formicidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Gentiana algida</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Gentiana parryi</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Gentianella amarella</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Gentianella tenella</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Geum rossii</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Halictidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Hesperiidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Ichneumonidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Lewisia pygmaea</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Ligusticum tenuifolium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Lloydia serotina</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Lycaenidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Lygaeidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Megachilidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Mertensia lanceolata</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Minuartia obtusifolia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Minuartia obtusiloba</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Miridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Muscidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Noccaea fendleri</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Nymphalidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Oreoxis alpina</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Packera crocata</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Parnassiinae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Pedicularis groenlandica</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Pedicularis parryi</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Pemphredoninae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Phlox pulvinata</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Phoridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Pieridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Polemonium viscosum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Potentilla diversifolia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Pterophoridae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Ranunculus adonis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Rhodiola integrifolia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Rhodiola rhodantha</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Sarcophagidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Saxifraga rhomboidea</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Sedum lanceolatum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Senecio fremontii</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Sibbaldia procumbens</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Silene acaulis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Solidago simplex</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Stellaria longipes</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Syrphidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Tachinidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Tenthredinidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Tetraneuris acaulis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Tetraneuris grandiflora</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Tonestus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Family</taxonRankName>
+               <taxonRankValue>Torymidae</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Trifolium dasyphyllum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Trifolium parryi</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Trollius laxus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Genus</taxonRankName>
+               <taxonRankValue>Vaccinium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Veronica wormskjoldii</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Viola adunca</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>Species</taxonRankName>
+               <taxonRankValue>Zigadenus elegans</taxonRankValue>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+         <description>Updated insect identifications. [ARP 14 Dec 2023] Updated phlox identifications. [ARP 16 Apr 2024] Updated insect and plant identifications in black sand visitors data table. [ARP 27 Aug 2024]</description>
+      </maintenance>
+      <contact>
+         <organizationName>Niwot Ridge LTER</organizationName>
+         <positionName>Information Manager</positionName>
+         <address>
+            <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+            <deliveryPoint>University of Colorado</deliveryPoint>
+            <city>Boulder</city>
+            <administrativeArea>CO</administrativeArea>
+            <postalCode>80303</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+         <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+         <userId
+        directory="https://ror.org">https://ror.org/02ep77d74</userId>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+      directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <para>
+    The Black Sand Extended Growing Season Length Experiment consists of
+    five sites on Niwot Ridge, each with a pair of 10 x 40 m plots.
+    Snowmelt was accelerated in one plot at each site by spreading 567g
+    m^-2 of chemically inert black sand on the snow surface in the
+    spring. The second plot at each site was kept as an unmanipulated
+    snowmelt control to which the same amount of black sand was added
+    after ambient snow melt in the summer.
+  </para>
+               <para>
+    In 2018, black sand was applied to the early snowmelt plots at: East
+    Knoll, Audubon and Lefty = May 7, 2018. Trough = May 8, 2018. Black
+    sand was applied to all control plots on July 16, 2018.
+  </para>
+               <para>
+    In 2019, black sand was applied to the early snowmelt plots at: East
+    Knoll May 23, 2019; Audubon, Lefty and Trough June 3, 2019. Black
+    sand was applied to control plots at: East Knoll, Lefty and Trough
+    on August 19, 2019; Audubon on August 21, 2019.
+  </para>
+               <para>
+    In 2020, black sand was applied to the early snowmelt plots at: East
+    Knoll on May 12, 2020; Audubon, Lefty, and Trough on May 18, 2020.
+    Black sand was applied to control plots at: East Knoll on August 3,
+    2020; Audubon and Lefty on August 17, 2020; Trough on August 22-23,
+    2020.
+  </para>
+               <para>
+    To determine if pollinator visitation rate, species richness, and
+    composition differ between early snowmelt and control plants, we
+    performed pollinator observations of all flowering plants in
+    phenologically advanced and control plots in 2020. We performed
+    observations within five to six 1 m^2 or 2 m^2 subplots per
+    treatment at four sites: Audubon, East Knoll, Lefty, and Trough. We
+    observed subplots for 15 minutes per observation period. We began
+    observations when flowering began in each plot, then observed plots
+    approximately twice weekly until floral senescence of plants in
+    plots.
+  </para>
+               <para>
+    To quantify weather variables that could affect pollinating insect
+    behavior, we collected temperature, windspeed, and relative humidity
+    at each observation period. To quantify broad floral abundance and
+    diversity landscape, we counted the total number of flowers of each
+    species per site and per treatment block; to quantify local floral
+    abundance and diversity I counted the total number of flowers per
+    species in each subplot. To assess the topography of each subplot,
+    which may also affect pollinator behavior directly and indirectly,
+    we downloaded a digital elevation model (DEM) for Niwot Ridge from
+    OpenTopography (Anderson 2013). Using the package raster and
+    function terrain (Hijmans 2023), we calculated elevation, slope, and
+    solar radiation. We also calculated topographic position index (TPI)
+    at small and large scales (as in Oldfather et al. 2016).
+  </para>
+               <para>
+    To investigate the direct and indirect effects of early snowmelt on
+    plant reproduction, we performed a pollinator exclusion experiment
+    using Geum rossii. In each treatment block at each of the four
+    sites, we identified 30 flowering G. rossii individuals. We
+    identified buds and divided the 30 plants into three categories:
+    open pollinated, closed to pollinators, and hand pollinated. Open
+    pollinated flowers were left open until just before seed set and
+    closed flowers were closed to insects using mesh baggies from bud
+    stage until seed collection. To perform hand pollination of the hand
+    pollinated flowers, we transferred pollen collected from a G. rossii
+    individual (from at least 10 m away from the target flower) to the
+    receptive stigma of the focal individual—flowers were closed to
+    insects using mesh baggies from bud stage until seed collection.
+    This was repeated twice across the flowering period of G. rossii at
+    each site and treatment. Finally, to elucidate the effect of
+    different insect visitors on G. rossii seed set, we bagged 100 G.
+    rossii buds at peak flowering at the site Trough, then removed bags
+    from flowers one at a time to allow a visit from a single insect
+    (recording the insect’s identity) and immediately replaced mesh
+    bags. Seeds from both the pollinator exclusion and individual visit
+    experiments were collected upon seed set.
+  </para>
+               <para>
+    References:
+  </para>
+               <para>
+    Anderson, R (2013) Lidar Data, Niwot Ridge Long-Term Ecological
+    Research Site, Colorado. Distributed by OpenTopography.
+    https://doi.org/10.5069/G9FJ2DQM. Accessed: 2021-09-18
+  </para>
+               <para>
+    Hijmans R (2023) _raster: Geographic Data Analysis and Modeling_. R
+    package version 3.6-23. https://CRAN.R-project.org/package=raster
+  </para>
+               <para>
+    Oldfather MF, Britton MN, Papper PD, Koontz MJ, Halbur MM, Dodge C,
+    Ackerly DD (2016) Effects of topoclimatic complexity on the
+    composition of woody plant communities. Ann Bot Plants
+    https://doi.org/10.1093/aobpla/plw049
+  </para>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>Niwot Ridge LTER</title>
+         <personnel>
+            <organizationName>University of Colorado</organizationName>
+            <role>pointOfContact</role>
+         </personnel>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <awardNumber>1637686</awardNumber>
+            <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+         </award>
+      </project>
+      <dataTable
+      id="82f0dfbf8dc642160361d818aadcc396" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Pollinator visitation records</entityName>
+         <entityDescription>All observation periods and insect visitors from black sand plots</entityDescription>
+         <physical>
+            <objectName>blacksand_visitors_2020.ar.data.csv</objectName>
+            <size
+          unit="byte">326086</size>
+            <authentication
+              method="MD5">251304adc6a0cd05936ffe309e0ee9e1</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/82f0dfbf8dc642160361d818aadcc396</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.1">
+               <attributeName>date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Date of observation period</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.2">
+               <attributeName>site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>Site of observation</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.3">
+               <attributeName>treatment</attributeName>
+               <attributeLabel>Treatment</attributeLabel>
+               <attributeDefinition>Treatment of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.4">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>Subplot</attributeLabel>
+               <attributeDefinition>Identity of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.5">
+               <attributeName>plotsize</attributeName>
+               <attributeLabel>Subplot size</attributeLabel>
+               <attributeDefinition>Size of subplot</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareMeter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M2">http://qudt.org/vocab/unit/M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.6">
+               <attributeName>obsstart</attributeName>
+               <attributeLabel>Observation Start</attributeLabel>
+               <attributeDefinition>Time that observation period starts</attributeDefinition>
+               <storageType>time</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.7">
+               <attributeName>obsend</attributeName>
+               <attributeLabel>Observation End</attributeLabel>
+               <attributeDefinition>Time that observation period ends</attributeDefinition>
+               <storageType>time</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.8">
+               <attributeName>cloudcover</attributeName>
+               <attributeLabel>Percent cloud cover</attributeLabel>
+               <attributeDefinition>Percent cloud cover during observation</attributeDefinition>
+               <storageType>double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="PERCENT">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.9">
+               <attributeName>temp</attributeName>
+               <attributeLabel>Temperature</attributeLabel>
+               <attributeDefinition>Temperature during observation period</attributeDefinition>
+               <storageType>double</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>fahrenheit</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="DEG_F">http://qudt.org/vocab/unit/DEG_F</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.10">
+               <attributeName>windmax</attributeName>
+               <attributeLabel>Maximum wind speed</attributeLabel>
+               <attributeDefinition>Maximum wind speed during observation period</attributeDefinition>
+               <storageType>double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milePerHour</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.11">
+               <attributeName>windavg</attributeName>
+               <attributeLabel>Average wind speed</attributeLabel>
+               <attributeDefinition>Average wind speed during observation period</attributeDefinition>
+               <storageType>double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>milePerHour</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.12">
+               <attributeName>relhum</attributeName>
+               <attributeLabel>Relative humidity</attributeLabel>
+               <attributeDefinition>Relative humidity in 5 minutes before observation</attributeDefinition>
+               <storageType>double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="PERCENT">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.13">
+               <attributeName>visittime</attributeName>
+               <attributeLabel>Visit time</attributeLabel>
+               <attributeDefinition>Time that insect visited flower</attributeDefinition>
+               <storageType>time</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>hh:mm</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.14">
+               <attributeName>visitor_family</attributeName>
+               <attributeLabel>Visitor family</attributeLabel>
+               <attributeDefinition>Family of visiting insect</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.15">
+               <attributeName>visitor_nomenclature</attributeName>
+               <attributeLabel>Visitor nomenclature</attributeLabel>
+               <attributeDefinition>Nomenclature of visiting insect as used in data analysis</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.16">
+               <attributeName>visitor_collected_id</attributeName>
+               <attributeLabel>Identity of collected visitors</attributeLabel>
+               <attributeDefinition>Identity of collected visitors</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period and when visitor was not collected</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.17">
+               <attributeName>plant_sp</attributeName>
+               <attributeLabel>Plant species</attributeLabel>
+               <attributeDefinition>Species of plant visited by insect</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.18">
+               <attributeName>collected_yn</attributeName>
+               <attributeLabel>Collected? yes/no</attributeLabel>
+               <attributeDefinition>Was insect collected- 1=yes, 0=no</attributeDefinition>
+               <storageType>boolean</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.19">
+               <attributeName>visitornumber</attributeName>
+               <attributeLabel>Order of visitor by number</attributeLabel>
+               <attributeDefinition>Identity of individual insect visitors- each visiting insect individual per day per subplot has a unique number for the entire sampling season</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="att.20">
+               <attributeName>flowervisitnumber</attributeName>
+               <attributeLabel>Order of flowers visited</attributeLabel>
+               <attributeDefinition>Order of flowers visited by single insect individual- numbered within single observation period</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA used when no insects visited during observation period</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="UNITLESS">http://qudt.org/vocab/unit/UNITLESS</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>2374</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="df2f75ebe70b295be25e74b2166b4c38" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Flower counts</entityName>
+         <entityDescription>Counts of flowers at subplot and site level for each day of observation</entityDescription>
+         <physical>
+            <objectName>blacksand_flowercounts_2020.ar.data.csv</objectName>
+            <size
+          unit="byte">4336938</size>
+            <authentication
+              method="MD5">c5f8ec4b2c69c85dbab474a6c0f05b10</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/df2f75ebe70b295be25e74b2166b4c38</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.21">
+               <attributeName>date</attributeName>
+               <attributeLabel>Date</attributeLabel>
+               <attributeDefinition>Date of observation period</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.22">
+               <attributeName>site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>Site of observation</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.23">
+               <attributeName>treatment</attributeName>
+               <attributeLabel>Treatment</attributeLabel>
+               <attributeDefinition>Treatment of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.24">
+               <attributeName>subplot_or_totalplot</attributeName>
+               <attributeLabel>Subplot or total plot count</attributeLabel>
+               <attributeDefinition>Identifies whether count listed is for a subplot within a site or an entire 40x10 m plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.25">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>Subplot</attributeLabel>
+               <attributeDefinition>Identity of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>NA for subplot totals when counts are for total plots</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="att.26">
+               <attributeName>plotsize</attributeName>
+               <attributeLabel>Subplot size</attributeLabel>
+               <attributeDefinition>Size of subplot</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareMeter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M2">http://qudt.org/vocab/unit/M2</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.27">
+               <attributeName>plant_sp</attributeName>
+               <attributeLabel>Plant species</attributeLabel>
+               <attributeDefinition>Species of plant visited by insect</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.28">
+               <attributeName>fl_count</attributeName>
+               <attributeLabel>Number of flowers</attributeLabel>
+               <attributeDefinition>Number of flowers in a given area</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>57600</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="0984dcd88b546c48f8c68cd66c21eae7" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Subplot topography</entityName>
+         <entityDescription>Measures of topography at subplot level</entityDescription>
+         <physical>
+            <objectName>blacksand_topography_2020.ar.data.csv</objectName>
+            <size
+          unit="byte">4038</size>
+            <authentication
+              method="MD5">a753915e30a2b213c1f97eba81554cd4</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/0984dcd88b546c48f8c68cd66c21eae7</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.29">
+               <attributeName>site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>Site of observation</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.30">
+               <attributeName>treatment</attributeName>
+               <attributeLabel>Treatment</attributeLabel>
+               <attributeDefinition>Treatment of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.31">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>Subplot</attributeLabel>
+               <attributeDefinition>Identity of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.32">
+               <attributeName>slope</attributeName>
+               <attributeLabel>Slope</attributeLabel>
+               <attributeDefinition>Slope at a given subplot</attributeDefinition>
+               <storageType>decimal</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="DEG">http://qudt.org/vocab/unit/DEG</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.33">
+               <attributeName>elevation</attributeName>
+               <attributeLabel>Elevation</attributeLabel>
+               <attributeDefinition>Elevation of a subplot</attributeDefinition>
+               <storageType>decimal</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.34">
+               <attributeName>tpi3</attributeName>
+               <attributeLabel>TPI3</attributeLabel>
+               <attributeDefinition>TPI calculated at a 3 m radius</attributeDefinition>
+               <storageType>decimal</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.35">
+               <attributeName>tpi11</attributeName>
+               <attributeLabel>TPI11</attributeLabel>
+               <attributeDefinition>TPI calculated at a 11 m radius</attributeDefinition>
+               <storageType>decimal</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.36">
+               <attributeName>tpi31</attributeName>
+               <attributeLabel>TPI31</attributeLabel>
+               <attributeDefinition>TPI calculated at a 31 m radius</attributeDefinition>
+               <storageType>decimal</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>42</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="0be14d1453b67efe1af0a789a3727078" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Geum exclusions seed set</entityName>
+         <entityDescription>Viable seeds produced by Geum rossii under pollinator exclusion, open pollination, and pollen addition</entityDescription>
+         <physical>
+            <objectName>blacksand_geumexclusions_2020.ar.data.csv</objectName>
+            <size
+          unit="byte">31195</size>
+            <authentication
+              method="MD5">c6a8f0e31f645d7254a005dd8831abc2</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/0be14d1453b67efe1af0a789a3727078</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.37">
+               <attributeName>site</attributeName>
+               <attributeLabel>Site</attributeLabel>
+               <attributeDefinition>Site of observation</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.38">
+               <attributeName>treatment</attributeName>
+               <attributeLabel>Treatment</attributeLabel>
+               <attributeDefinition>Treatment of plot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing data</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.39">
+               <attributeName>timepoint</attributeName>
+               <attributeLabel>Time point</attributeLabel>
+               <attributeDefinition>Period in which flower opened</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing data</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+          id="att.40">
+               <attributeName>exclusion_treatment</attributeName>
+               <attributeLabel>Exclusion treatment</attributeLabel>
+               <attributeDefinition>Exclusion treatment of each flower</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.41">
+               <attributeName>plant_id</attributeName>
+               <attributeLabel>ID of plant</attributeLabel>
+               <attributeDefinition>Identity of plant individual</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing data</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="att.42">
+               <attributeName>number_heads</attributeName>
+               <attributeLabel>Number of flowering heads</attributeLabel>
+               <attributeDefinition>Number of flowering heads represented by count of viable seeds</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.43">
+               <attributeName>total_viable_seeds</attributeName>
+               <attributeLabel>Total number of viable seeds</attributeLabel>
+               <attributeDefinition>Total viable seeds produced by flower(s) in a given treatment</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>568</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="e94d1cc1607fd01a4b164933deddbc02" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>Geum individual visitor seed set</entityName>
+         <entityDescription>Viable seeds produced by Geum rossii when visited by a single insect visitor</entityDescription>
+         <physical>
+            <objectName>blacksand_geumindividualvisits_2020.ar.data.csv</objectName>
+            <size
+          unit="byte">2958</size>
+            <authentication
+              method="MD5">0e52b518fe89fac2ef9b68574c9a21e0</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/e94d1cc1607fd01a4b164933deddbc02</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.44">
+               <attributeName>plant_id</attributeName>
+               <attributeLabel>ID of plant</attributeLabel>
+               <attributeDefinition>Identity of plant individual</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.45">
+               <attributeName>exclusion_treatment</attributeName>
+               <attributeLabel>Exclusion treatment</attributeLabel>
+               <attributeDefinition>Exclusion treatment of each flower</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.46">
+               <attributeName>insect_visitor</attributeName>
+               <attributeLabel>Insect visitor taxon</attributeLabel>
+               <attributeDefinition>Taxon of insect visitor</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>not applicable</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute
+              id="att.47">
+               <attributeName>number_heads</attributeName>
+               <attributeLabel>Number of flowering heads</attributeLabel>
+               <attributeDefinition>Number of flowering heads represented by count of viable seeds</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.48">
+               <attributeName>total_viable_seeds</attributeName>
+               <attributeLabel>Total number of viable seeds</attributeLabel>
+               <attributeDefinition>Total viable seeds produced by flower(s) in a given treatment</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>integer</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>102</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <unitList>
+            <unit
+          abbreviation="m^2" id="squareMeter" multiplierToSI="1"
+          name="squareMeter"
+          unitType="area">
+               <description>square meters</description>
+            </unit>
+            <unit
+          abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent"
+          unitType="dimensionless">
+               <description>percent, one part per hundred parts</description>
+            </unit>
+            <unit
+          abbreviation="F" constantToSI="-17.778" id="fahrenheit"
+          multiplierToSI="0.556" name="fahrenheit"
+          parentSI="kelvin">
+               <description>An obsolescent unit of temperature still used in popular meteorology</description>
+            </unit>
+            <unit
+          abbreviation="mph" id="milePerHour" multiplierToSI="0.44704"
+          name="milePerHour" parentSI="meterPerSecond"
+          unitType="speed">
+               <description>miles per hour</description>
+            </unit>
+            <unit
+          id="dimensionless" name="dimensionless"
+          unitType="dimensionless">
+               <description>a designation asserting the absence of an associated unit</description>
+            </unit>
+            <unit
+          id="number" name="number"
+          unitType="dimensionless">
+               <description>a number</description>
+            </unit>
+            <unit
+          abbreviation="degree" id="degree" multiplierToSI="0.017453292"
+          name="degree" parentSI="radian"
+          unitType="angle">
+               <description>360 degrees comprise a unit circle.</description>
+            </unit>
+            <unit
+          abbreviation="m" id="meter" multiplierToSI="1" name="meter" unitType="length">
+               <description>SI unit of length</description>
+            </unit>
+         </unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

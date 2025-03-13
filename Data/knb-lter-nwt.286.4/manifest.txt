@@ -1,0 +1,9 @@
+Manifest file for knb-lter-nwt.286.4.zip created on Tue Mar 11 22:00:18 UTC 2025
+blacksand_visitors_2020.ar.data.csv (326086 bytes)
+blacksand_flowercounts_2020.ar.data.csv (4336938 bytes)
+blacksand_topography_2020.ar.data.csv (4038 bytes)
+blacksand_geumexclusions_2020.ar.data.csv (31195 bytes)
+blacksand_geumindividualvisits_2020.ar.data.csv (2958 bytes)
+knb-lter-nwt.286.4.xml (86786 bytes)
+knb-lter-nwt.286.4.txt (45413 bytes)
+knb-lter-nwt.286.4.report.xml (115831 bytes)

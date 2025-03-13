@@ -1,0 +1,1752 @@
+
+   
+      
+         uid=nwt,o=EDI,dc=ecoinformatics,dc=org
+         read
+         write
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/ee4298a90e8947a0402123d2caf16f5cBlack Sand pollination
+      Pollinator visitation, flower count, and seed set in Black Sand plots, 2020.
+      
+         Annika Rose-Person
+         arose012@ucr.edu
+         https://orcid.org/0009-0001-0192-0445
+      
+      
+         Marko J. Spasojevic
+         https://orcid.org/0000-0003-1808-0048
+      
+      
+         Chiara C. Forrester
+      
+      
+         William D. Bowman
+         https://orcid.org/0000-0003-4381-5245
+      
+      
+         Katharine N. Suding
+         https://orcid.org/0000-0002-5357-0176
+      
+      
+         Meagan F. Oldfather
+         https://orcid.org/0000-0003-3256-4786
+      
+      
+         Nicole E. Rafferty
+         https://orcid.org/0000-0002-6350-1705
+      
+      2024-09-03
+      English
+      
+         
+    Anthropogenic climate change is altering interactions among numerous
+    species, including plants and pollinators. Plant-pollinator
+    interactions, crucial for the persistence of most plant and many
+    insect species, are threatened by climate change-driven phenological
+    shifts. Phenological mismatches between plants and their pollinators
+    may affect pollination services, and simulations indicated that
+    these mismatches may reduce floral resources available to up to 50%
+    of insect pollinator species. Although alpine plants rely heavily on
+    vegetative reproduction, seedling recruitment and seed dispersal are
+    likely to be important drivers of alpine community structure.
+    Similarly, advanced flowering may expose plants to increased risk of
+    frost damage and shifted soil moisture regimes; phenologically
+    advanced plants will experience these environmental factors
+    differently, which may alter their floral resource production. These
+    effects may be dependent upon topography. Some species of alpine
+    plants on the Niwot Ridge have displayed advanced phenology under
+    treatments of advanced snowmelt (Forrester, 2021). However, little
+    is understood about how these differences in distribution and
+    phenology affect pollinator community composition and plant
+    fecundity. Here we strive to examine how experimentally-induced
+    changes in the timing of flowering and number of flowers produced by
+    plants impact plant-pollinator interactions and seed set. We also
+    ask how topography and the number of flowers interact with early
+    snowmelt to affect pollination rates and the diversity of
+    pollinating insects. Finally, we ask how seed set of Geum rossii is
+    affected by pollinator visitation at different times of the season,
+    under experimentally advanced snowmelt versus unmanipulated
+    snowmelt, and with visitation by different insect taxa. In summer
+    2020, we found that plots with advanced phenology experienced peaks
+    in pollinator visitation rates and pollinator diversity earlier than
+    plots with unmanipulated snowmelt. We expect this to be because of
+    the advanced floral phenology of certain key species in these plots.
+  
+         
+    References:
+  
+         
+    Forrester, C.C. (2021). Advancing, Using, and Teaching Climate
+    Change Ecology Research. [Doctoral dissertation, University of
+    Colorado, Boulder]. ProQuest Dissertations and Theses.
+  
+      
+      
+         aboveground production
+         albedo
+         alpine
+         arthropods
+         climate change
+         community patterns
+         ecology
+         flowering
+         flowers
+         insects
+         phenology
+         plant ecology
+         warming
+         LTER controlled vocabulary
+      
+      
+         populations
+         disturbance
+         LTER core area
+      
+      
+         Niwot Ridge LTER
+         NWT
+      
+      
+         
+    This information is released under the Creative Commons license -
+    Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+    The consumer of these data (“Data User” herein) is required to cite
+    it appropriately in any publication that results from its use. The
+    Data User should realize that these data may be actively used by
+    others for ongoing research and that coordination may be necessary
+    to prevent duplicate publication. The Data User is urged to contact
+    the authors of these data if any questions about methodology or
+    results occur. Where appropriate, the Data User is encouraged to
+    consider collaboration or co-authorship with the authors. The Data
+    User should realize that misinterpretation of data may occur if used
+    out of context of the original study. While substantial efforts are
+    made to ensure the accuracy of data and associated documentation,
+    complete accuracy of data sets cannot be guaranteed. All data are
+    made available "as is." The Data User should be aware,
+    however, that data are updated periodically and it is the
+    responsibility of the Data User to check for new versions of the
+    data. The data authors and the repository where these data were
+    obtained shall not be liable for damages resulting from any use or
+    misinterpretation of the data. Thank you.
+  
+      
+      
+         Creative Commons Attribution 4.0 International
+         https://spdx.org/licenses/CC-BY-4.0.html
+         CC-BY-4.0
+      
+      https://doi.org/10.6073/pasta/ee4298a90e8947a0402123d2caf16f5c
+         
+            Audubon
+            
+               -105.5907
+               -105.5902
+               40.06154
+               40.06119
+            
+         
+         
+            EastKnoll
+            
+               -105.5863
+               -105.5858
+               40.05393
+               40.0535
+            
+         
+         
+            Lefty
+            
+               -105.5769
+               -105.5765
+               40.05615
+               40.05576
+            
+         
+         
+            Trough
+            
+               -105.5825
+               -105.5821
+               40.05009
+               40.04969
+            
+         
+         
+            
+               
+                  2020-06-11
+               
+               
+                  2020-09-02
+               
+            
+         
+         
+            
+               Species
+               Achillea millefolium
+            
+            
+               Family
+               Acrididae
+            
+            
+               Species
+               Agoseris glauca
+            
+            
+               Species
+               Allium geyeri
+            
+            
+               Genus
+               Antennaria
+            
+            
+               Species
+               Antennaria media
+            
+            
+               Species
+               Antennaria rosea
+            
+            
+               Family
+               Anthomyiidae
+            
+            
+               Family
+               Apidae
+            
+            
+               Species
+               Aquilegia coerulea
+            
+            
+               Species
+               Arenaria fendleri
+            
+            
+               Genus
+               Artemisia
+            
+            
+               Species
+               Artemisia scopulorum
+            
+            
+               Family
+               Bedelliidae
+            
+            
+               Species
+               Bistort bistortoides
+            
+            
+               Species
+               Bistort viviparum
+            
+            
+               Species
+               Bistorta bistortoides
+            
+            
+               Family
+               Bombyliidae
+            
+            
+               Genus
+               Bombylius
+            
+            
+               Family
+               Braconidae
+            
+            
+               Family
+               Calliphoridae
+            
+            
+               Species
+               Caltha leptosepala
+            
+            
+               Species
+               Campanula rotundifolia
+            
+            
+               Species
+               Castilleja occidentalis
+            
+            
+               Family
+               Cerambycidae
+            
+            
+               Species
+               Cerastium arvense
+            
+            
+               Species
+               Chionophila jamesii
+            
+            
+               Family
+               Chloropidae
+            
+            
+               Family
+               Cicadellidae
+            
+            
+               Family
+               Colletidae
+            
+            
+               Family
+               Conopidae
+            
+            
+               Order
+               Diptera
+            
+            
+               Species
+               Dodecatheon pulchellum
+            
+            
+               Genus
+               Draba
+            
+            
+               Family
+               Empididae
+            
+            
+               Family
+               Ephydridae
+            
+            
+               Genus
+               Erigeron
+            
+            
+               Species
+               Erigeron glacialis
+            
+            
+               Species
+               Erigeron melanocephalus
+            
+            
+               Species
+               Erigeron pinnatisectus
+            
+            
+               Species
+               Erigeron simplex
+            
+            
+               Species
+               Eritrichium nanum
+            
+            
+               Species
+               Erysimum capitatum
+            
+            
+               Family
+               Eulophidae
+            
+            
+               Family
+               Eurytomidae
+            
+            
+               Family
+               Formicidae
+            
+            
+               Species
+               Gentiana algida
+            
+            
+               Species
+               Gentiana parryi
+            
+            
+               Species
+               Gentianella amarella
+            
+            
+               Species
+               Gentianella tenella
+            
+            
+               Species
+               Geum rossii
+            
+            
+               Family
+               Halictidae
+            
+            
+               Family
+               Hesperiidae
+            
+            
+               Family
+               Ichneumonidae
+            
+            
+               Species
+               Lewisia pygmaea
+            
+            
+               Species
+               Ligusticum tenuifolium
+            
+            
+               Species
+               Lloydia serotina
+            
+            
+               Family
+               Lycaenidae
+            
+            
+               Family
+               Lygaeidae
+            
+            
+               Family
+               Megachilidae
+            
+            
+               Species
+               Mertensia lanceolata
+            
+            
+               Species
+               Minuartia obtusifolia
+            
+            
+               Species
+               Minuartia obtusiloba
+            
+            
+               Family
+               Miridae
+            
+            
+               Family
+               Muscidae
+            
+            
+               Species
+               Noccaea fendleri
+            
+            
+               Family
+               Nymphalidae
+            
+            
+               Species
+               Oreoxis alpina
+            
+            
+               Species
+               Packera crocata
+            
+            
+               Family
+               Parnassiinae
+            
+            
+               Species
+               Pedicularis groenlandica
+            
+            
+               Species
+               Pedicularis parryi
+            
+            
+               Family
+               Pemphredoninae
+            
+            
+               Species
+               Phlox pulvinata
+            
+            
+               Family
+               Phoridae
+            
+            
+               Family
+               Pieridae
+            
+            
+               Species
+               Polemonium viscosum
+            
+            
+               Species
+               Potentilla diversifolia
+            
+            
+               Family
+               Pterophoridae
+            
+            
+               Species
+               Ranunculus adonis
+            
+            
+               Species
+               Rhodiola integrifolia
+            
+            
+               Species
+               Rhodiola rhodantha
+            
+            
+               Family
+               Sarcophagidae
+            
+            
+               Species
+               Saxifraga rhomboidea
+            
+            
+               Species
+               Sedum lanceolatum
+            
+            
+               Species
+               Senecio fremontii
+            
+            
+               Species
+               Sibbaldia procumbens
+            
+            
+               Species
+               Silene acaulis
+            
+            
+               Species
+               Solidago simplex
+            
+            
+               Species
+               Stellaria longipes
+            
+            
+               Family
+               Syrphidae
+            
+            
+               Family
+               Tachinidae
+            
+            
+               Family
+               Tenthredinidae
+            
+            
+               Species
+               Tetraneuris acaulis
+            
+            
+               Species
+               Tetraneuris grandiflora
+            
+            
+               Genus
+               Tonestus
+            
+            
+               Family
+               Torymidae
+            
+            
+               Species
+               Trifolium dasyphyllum
+            
+            
+               Species
+               Trifolium parryi
+            
+            
+               Species
+               Trollius laxus
+            
+            
+               Genus
+               Vaccinium
+            
+            
+               Species
+               Veronica wormskjoldii
+            
+            
+               Species
+               Viola adunca
+            
+            
+               Species
+               Zigadenus elegans
+            
+         
+      
+      
+         Updated insect identifications. [ARP 14 Dec 2023] Updated phlox identifications. [ARP 16 Apr 2024] Updated insect and plant identifications in black sand visitors data table. [ARP 27 Aug 2024]
+      
+      
+         Niwot Ridge LTER
+         Information Manager
+         			4001 Discovery Drive, UCB 450
+			University of Colorado
+			Boulder, CO 80303  United States
+         lternwt@colorado.edu
+         https://nwt.lternet.edu/
+         https://ror.org/02ep77d74
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               
+    The Black Sand Extended Growing Season Length Experiment consists of
+    five sites on Niwot Ridge, each with a pair of 10 x 40 m plots.
+    Snowmelt was accelerated in one plot at each site by spreading 567g
+    m^-2 of chemically inert black sand on the snow surface in the
+    spring. The second plot at each site was kept as an unmanipulated
+    snowmelt control to which the same amount of black sand was added
+    after ambient snow melt in the summer.
+  
+               
+    In 2018, black sand was applied to the early snowmelt plots at: East
+    Knoll, Audubon and Lefty = May 7, 2018. Trough = May 8, 2018. Black
+    sand was applied to all control plots on July 16, 2018.
+  
+               
+    In 2019, black sand was applied to the early snowmelt plots at: East
+    Knoll May 23, 2019; Audubon, Lefty and Trough June 3, 2019. Black
+    sand was applied to control plots at: East Knoll, Lefty and Trough
+    on August 19, 2019; Audubon on August 21, 2019.
+  
+               
+    In 2020, black sand was applied to the early snowmelt plots at: East
+    Knoll on May 12, 2020; Audubon, Lefty, and Trough on May 18, 2020.
+    Black sand was applied to control plots at: East Knoll on August 3,
+    2020; Audubon and Lefty on August 17, 2020; Trough on August 22-23,
+    2020.
+  
+               
+    To determine if pollinator visitation rate, species richness, and
+    composition differ between early snowmelt and control plants, we
+    performed pollinator observations of all flowering plants in
+    phenologically advanced and control plots in 2020. We performed
+    observations within five to six 1 m^2 or 2 m^2 subplots per
+    treatment at four sites: Audubon, East Knoll, Lefty, and Trough. We
+    observed subplots for 15 minutes per observation period. We began
+    observations when flowering began in each plot, then observed plots
+    approximately twice weekly until floral senescence of plants in
+    plots.
+  
+               
+    To quantify weather variables that could affect pollinating insect
+    behavior, we collected temperature, windspeed, and relative humidity
+    at each observation period. To quantify broad floral abundance and
+    diversity landscape, we counted the total number of flowers of each
+    species per site and per treatment block; to quantify local floral
+    abundance and diversity I counted the total number of flowers per
+    species in each subplot. To assess the topography of each subplot,
+    which may also affect pollinator behavior directly and indirectly,
+    we downloaded a digital elevation model (DEM) for Niwot Ridge from
+    OpenTopography (Anderson 2013). Using the package raster and
+    function terrain (Hijmans 2023), we calculated elevation, slope, and
+    solar radiation. We also calculated topographic position index (TPI)
+    at small and large scales (as in Oldfather et al. 2016).
+  
+               
+    To investigate the direct and indirect effects of early snowmelt on
+    plant reproduction, we performed a pollinator exclusion experiment
+    using Geum rossii. In each treatment block at each of the four
+    sites, we identified 30 flowering G. rossii individuals. We
+    identified buds and divided the 30 plants into three categories:
+    open pollinated, closed to pollinators, and hand pollinated. Open
+    pollinated flowers were left open until just before seed set and
+    closed flowers were closed to insects using mesh baggies from bud
+    stage until seed collection. To perform hand pollination of the hand
+    pollinated flowers, we transferred pollen collected from a G. rossii
+    individual (from at least 10 m away from the target flower) to the
+    receptive stigma of the focal individual—flowers were closed to
+    insects using mesh baggies from bud stage until seed collection.
+    This was repeated twice across the flowering period of G. rossii at
+    each site and treatment. Finally, to elucidate the effect of
+    different insect visitors on G. rossii seed set, we bagged 100 G.
+    rossii buds at peak flowering at the site Trough, then removed bags
+    from flowers one at a time to allow a visit from a single insect
+    (recording the insect’s identity) and immediately replaced mesh
+    bags. Seeds from both the pollinator exclusion and individual visit
+    experiments were collected upon seed set.
+  
+               
+    References:
+  
+               
+    Anderson, R (2013) Lidar Data, Niwot Ridge Long-Term Ecological
+    Research Site, Colorado. Distributed by OpenTopography.
+    https://doi.org/10.5069/G9FJ2DQM. Accessed: 2021-09-18
+  
+               
+    Hijmans R (2023) _raster: Geographic Data Analysis and Modeling_. R
+    package version 3.6-23. https://CRAN.R-project.org/package=raster
+  
+               
+    Oldfather MF, Britton MN, Papper PD, Koontz MJ, Halbur MM, Dodge C,
+    Ackerly DD (2016) Effects of topoclimatic complexity on the
+    composition of woody plant communities. Ann Bot Plants
+    https://doi.org/10.1093/aobpla/plw049
+  
+            
+         
+      
+      
+         Niwot Ridge LTER
+         
+            University of Colorado
+            pointOfContact
+         
+         
+            National Science Foundation
+            1637686
+            LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change
+         
+      
+      
+         Pollinator visitation records
+         All observation periods and insect visitors from black sand plots
+         
+            blacksand_visitors_2020.ar.data.csv
+            326086
+            251304adc6a0cd05936ffe309e0ee9e1
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/82f0dfbf8dc642160361d818aadcc396
+               
+            
+         
+         
+            
+               date
+               Date
+               Date of observation period
+               date
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               site
+               Site
+               Site of observation
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               treatment
+               Treatment
+               Treatment of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               Subplot
+               Identity of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               plotsize
+               Subplot size
+               Size of subplot
+               integer
+               
+                  
+                     
+                        squareMeter
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M2
+               
+            
+            
+               obsstart
+               Observation Start
+               Time that observation period starts
+               time
+               
+                  
+                     hh:mm
+                     
+                  
+               
+            
+            
+               obsend
+               Observation End
+               Time that observation period ends
+               time
+               
+                  
+                     hh:mm
+                     
+                  
+               
+            
+            
+               cloudcover
+               Percent cloud cover
+               Percent cloud cover during observation
+               double
+               
+                  
+                     
+                        percent
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+            
+               temp
+               Temperature
+               Temperature during observation period
+               double
+               
+                  
+                     
+                        fahrenheit
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/DEG_F
+               
+            
+            
+               windmax
+               Maximum wind speed
+               Maximum wind speed during observation period
+               double
+               
+                  
+                     
+                        milePerHour
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               windavg
+               Average wind speed
+               Average wind speed during observation period
+               double
+               
+                  
+                     
+                        milePerHour
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               relhum
+               Relative humidity
+               Relative humidity in 5 minutes before observation
+               double
+               
+                  
+                     
+                        percent
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+            
+               visittime
+               Visit time
+               Time that insect visited flower
+               time
+               
+                  
+                     hh:mm
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               visitor_family
+               Visitor family
+               Family of visiting insect
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               visitor_nomenclature
+               Visitor nomenclature
+               Nomenclature of visiting insect as used in data analysis
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               visitor_collected_id
+               Identity of collected visitors
+               Identity of collected visitors
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period and when visitor was not collected
+               
+            
+            
+               plant_sp
+               Plant species
+               Species of plant visited by insect
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               collected_yn
+               Collected? yes/no
+               Was insect collected- 1=yes, 0=no
+               boolean
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               visitornumber
+               Order of visitor by number
+               Identity of individual insect visitors- each visiting insect individual per day per subplot has a unique number for the entire sampling season
+               integer
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+            
+            
+               flowervisitnumber
+               Order of flowers visited
+               Order of flowers visited by single insect individual- numbered within single observation period
+               integer
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  NA
+                  NA used when no insects visited during observation period
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/UNITLESS
+               
+            
+         
+         2374
+      
+      
+         Flower counts
+         Counts of flowers at subplot and site level for each day of observation
+         
+            blacksand_flowercounts_2020.ar.data.csv
+            4336938
+            c5f8ec4b2c69c85dbab474a6c0f05b10
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/df2f75ebe70b295be25e74b2166b4c38
+               
+            
+         
+         
+            
+               date
+               Date
+               Date of observation period
+               date
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               site
+               Site
+               Site of observation
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               treatment
+               Treatment
+               Treatment of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot_or_totalplot
+               Subplot or total plot count
+               Identifies whether count listed is for a subplot within a site or an entire 40x10 m plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               Subplot
+               Identity of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  NA for subplot totals when counts are for total plots
+               
+            
+            
+               plotsize
+               Subplot size
+               Size of subplot
+               integer
+               
+                  
+                     
+                        squareMeter
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M2
+               
+            
+            
+               plant_sp
+               Plant species
+               Species of plant visited by insect
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               fl_count
+               Number of flowers
+               Number of flowers in a given area
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+         
+         57600
+      
+      
+         Subplot topography
+         Measures of topography at subplot level
+         
+            blacksand_topography_2020.ar.data.csv
+            4038
+            a753915e30a2b213c1f97eba81554cd4
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/0984dcd88b546c48f8c68cd66c21eae7
+               
+            
+         
+         
+            
+               site
+               Site
+               Site of observation
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               treatment
+               Treatment
+               Treatment of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               Subplot
+               Identity of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               slope
+               Slope
+               Slope at a given subplot
+               decimal
+               
+                  
+                     
+                        degree
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/DEG
+               
+            
+            
+               elevation
+               Elevation
+               Elevation of a subplot
+               decimal
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               tpi3
+               TPI3
+               TPI calculated at a 3 m radius
+               decimal
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               tpi11
+               TPI11
+               TPI calculated at a 11 m radius
+               decimal
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               tpi31
+               TPI31
+               TPI calculated at a 31 m radius
+               decimal
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+         
+         42
+      
+      
+         Geum exclusions seed set
+         Viable seeds produced by Geum rossii under pollinator exclusion, open pollination, and pollen addition
+         
+            blacksand_geumexclusions_2020.ar.data.csv
+            31195
+            c6a8f0e31f645d7254a005dd8831abc2
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/0be14d1453b67efe1af0a789a3727078
+               
+            
+         
+         
+            
+               site
+               Site
+               Site of observation
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               treatment
+               Treatment
+               Treatment of plot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  missing data
+               
+            
+            
+               timepoint
+               Time point
+               Period in which flower opened
+               integer
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  missing data
+               
+            
+            
+               exclusion_treatment
+               Exclusion treatment
+               Exclusion treatment of each flower
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               plant_id
+               ID of plant
+               Identity of plant individual
+               integer
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  missing data
+               
+            
+            
+               number_heads
+               Number of flowering heads
+               Number of flowering heads represented by count of viable seeds
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+            
+               total_viable_seeds
+               Total number of viable seeds
+               Total viable seeds produced by flower(s) in a given treatment
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+         
+         568
+      
+      
+         Geum individual visitor seed set
+         Viable seeds produced by Geum rossii when visited by a single insect visitor
+         
+            blacksand_geumindividualvisits_2020.ar.data.csv
+            2958
+            0e52b518fe89fac2ef9b68574c9a21e0
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/286/4/e94d1cc1607fd01a4b164933deddbc02
+               
+            
+         
+         
+            
+               plant_id
+               ID of plant
+               Identity of plant individual
+               integer
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               exclusion_treatment
+               Exclusion treatment
+               Exclusion treatment of each flower
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               insect_visitor
+               Insect visitor taxon
+               Taxon of insect visitor
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NA
+                  not applicable
+               
+            
+            
+               number_heads
+               Number of flowering heads
+               Number of flowering heads represented by count of viable seeds
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+            
+               total_viable_seeds
+               Total number of viable seeds
+               Total viable seeds produced by flower(s) in a given treatment
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        integer
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+         
+         102
+      
+   
+   
+      
+         
+            
+               square meters
+            
+            
+               percent, one part per hundred parts
+            
+            
+               An obsolescent unit of temperature still used in popular meteorology
+            
+            
+               miles per hour
+            
+            
+               a designation asserting the absence of an associated unit
+            
+            
+               a number
+            
+            
+               360 degrees comprise a unit circle.
+            
+            
+               SI unit of length
+            
+         
+      
+   
