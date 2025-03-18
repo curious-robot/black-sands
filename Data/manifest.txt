@@ -1,0 +1,11 @@
+Manifest file for knb-lter-nwt.181.9.zip created on Mon Mar 17 21:30:10 UTC 2025
+black_sand_snow_depth.cf.data.csv (152951 bytes)
+black_sand_soil_moisture_2018.cf.data.csv (132742 bytes)
+black_sand_soil_moisture_2020.cf.data.csv (37712 bytes)
+black_sand_ibuttons.js.data.csv (46485775 bytes)
+black_sand_itex_snowmelt.cf.data.csv (2881 bytes)
+black_sand_subplot_locations.js.data.csv (10489 bytes)
+black_sand_subplot_coord_measurement_diagram.pdf (77978 bytes)
+knb-lter-nwt.181.9.xml (72215 bytes)
+knb-lter-nwt.181.9.txt (40148 bytes)
+knb-lter-nwt.181.9.report.xml (148141 bytes)

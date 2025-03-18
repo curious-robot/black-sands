@@ -1,0 +1,1559 @@
+
+   
+      
+         uid=nwt,o=EDI,dc=ecoinformatics,dc=org
+         read
+         write
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/d0f0eb82c4dfd90b21270710c82b16ceBlack sand soil moisture and snowdepth
+      Soil moisture and snowdepth measurements in the Black Sand experiment for East Knoll, Audubon, Lefty, Soddie and Trough, 2018 - 2024.
+      
+         Chiara C. Forrester
+         chiara.forrester@colorado.edu
+      
+      
+         Jennifer F. Morse
+         jennifer.f.morse@colorado.edu>
+         https://orcid.org/0000-0003-3207-3776
+      
+      
+         Niwot Ridge LTER
+         lternwt@colorado.edu
+      
+      
+         Cliff Bueno de Mesquita
+         cliff.buenodemesquita@colorado.edu
+         https://orcid.org/0000-0002-2565-7100
+         investigator
+      
+      
+         Laurel Brigham
+         laurel.brigham@colorado.edu
+         https://orcid.org/0000-0001-5592-9165
+         investigator
+      
+      
+         Jane G Smith
+         jane.g.smith@colorado.edu
+         https://orcid.org/0000-0002-8457-4663
+         field technician 2019-2023
+      
+      
+         Henry Brandes
+         henry.brandes@gmail.com
+         https://orcid.org/0000-0001-9619-0213
+         field technician 2022
+      
+      
+         Sander Aplet
+         field technician
+      
+      
+         John Bryan Curtis
+         field technician 2022
+      
+      
+         Samuel Yevak
+         field technician
+      
+      
+         T. Austin Willbern
+         field technician
+      
+      
+         George Willis
+         george.willis@colorado.edu
+         field technician 2023
+      
+      2024-09-03
+      English
+      
+         
+    The purpose of the Black Sand experiment is to measure treatment
+    effects on date of snowmelt on Niwot Ridge. Five sites with paired
+    plots (treatment and control) were implemented across Niwot as part
+    of the extended summer research program in order to understand the
+    effects of earlier snowmelt. This dataset contains measurements of
+    snowdepth throughout the melt season, manual measurements of
+    volumetric water content and temperature data as an indication of
+    snowmelt timing.
+  
+      
+      
+         snow depth
+         soil moisture
+         LTER controlled vocabulary
+      
+      
+         early snowmelt
+         extended summer
+         Niwot Ridge LTER
+         NWT
+         black sand experiment
+      
+      
+         
+    This information is released under the Creative Commons license -
+    Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+    The consumer of these data (“Data User” herein) is required to cite
+    it appropriately in any publication that results from its use. The
+    Data User should realize that these data may be actively used by
+    others for ongoing research and that coordination may be necessary
+    to prevent duplicate publication. The Data User is urged to contact
+    the authors of these data if any questions about methodology or
+    results occur. Where appropriate, the Data User is encouraged to
+    consider collaboration or co-authorship with the authors. The Data
+    User should realize that misinterpretation of data may occur if used
+    out of context of the original study. While substantial efforts are
+    made to ensure the accuracy of data and associated documentation,
+    complete accuracy of data sets cannot be guaranteed. All data are
+    made available "as is." The Data User should be aware,
+    however, that data are updated periodically and it is the
+    responsibility of the Data User to check for new versions of the
+    data. The data authors and the repository where these data were
+    obtained shall not be liable for damages resulting from any use or
+    misinterpretation of the data. Thank you.
+  
+      
+      
+         Creative Commons Attribution 4.0 International
+         https://spdx.org/licenses/CC-BY-4.0.html
+         CC-BY-4.0
+      
+      https://doi.org/10.6073/pasta/d0f0eb82c4dfd90b21270710c82b16ce
+         
+            East Knoll Black Sand Site
+            
+               -105.586153881112
+               -105.585955658894
+               40.053629
+               40.053501
+            
+         
+         
+            Audubon Black Sand Site
+            
+               -105.590676934683
+               -105.590266637118
+               40.061373
+               40.061362
+            
+         
+         
+            Lefty Black Sand Site
+            
+               -105.576888777675
+               -105.576561110114
+               40.056
+               40.055926
+            
+         
+         
+            Soddie Black Sand Site
+            
+               -105.574688326404
+               -105.574228710488
+               40.049396
+               40.04911
+            
+         
+         
+            Trough Black Sand Site
+            
+               -105.582522114563
+               -105.582150350121
+               40.050089
+               40.049691
+            
+         
+         
+            
+               
+                  2018-05-08
+               
+               
+                  2024-07-30
+               
+            
+         
+      
+      
+         Updated metadata methods to correct rates of black sand application; corrected site locations in metadata; appended 2019 data [SCE 13 Feb 2020]. Updated comments in 2019 snow depth data; appended 2020 snow depth data; added 2020 soil moisture data; aligned column names and local site abbreviations across datasets [SCE 8 June 2021]. Appended 2021 snow depth measurements; harmonized treatment codes across years [SCE 13 Aug 2021]. Appended 2022 snow depth measurements including new column of distance from top of plot, added Jennifer Morse and Niwot Ridge to author list as measurement has transitioned to NWT staff [SCE 29 Nov 2022]. Added ibutton data from 2022-2023 which can be used to infer snowmelt timing; corrected misentered sample year in 2020 moisture datatable; added ocular estimates of snowmelt timing from 2018-2020; aligned site abbreviation names across tables [SCE/JGS/CF 29 Mar 2023]. Added manual snow measurements from 2023 as well as 2023 field season ibutton data. [SCE 8 Dec 2023]. Added corrected 2023 ibutton data that rectifies Audubon/Lefty COS2/COS6 duplicate labeling questions; remaining files unchanged. [SCE 13 Feb 2024] Added 2024 snow depth data. [JFM/ SCE 3 Sept 2024]
+      
+      
+         Niwot Ridge LTER
+         Information Manager
+         			4001 Discovery Drive, UCB 450
+			University of Colorado
+			Boulder, CO 80303  United States
+         lternwt@colorado.edu
+         https://nwt.lternet.edu/
+         https://ror.org/02ep77d74
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               
+    We accelerated snowmelt in one plot of each block by adding
+    chemically inert black sand, while keeping the second plot as an
+    unmanipulated control (black sand was added to these plots after
+    snow had naturally melted). Five plots (each paired with treatment
+    and control) were implemented, with each plot measuring 40 x 10 m in
+    different locations. Snowmelt was accelerated in treatment plots
+    using of 567g/ m2 black sand spread on the snow surface, control
+    plots had the same amount of black sand applied after ambient
+    snowmelt. To test the interactive effects of warming together with
+    snowmelt, we established 3 control subplots per plot, and 3 subplots
+    with passive ITEX warming chambers per plot (each site thus had 3
+    control, 3 warming, 3 early snowmelt and 3 early snowmelt + warming
+    subplots).
+  
+               
+    Snow depth was measured ~3 times per week between sand application
+    and snowmelt in both treatment and control plots. Measurements were
+    taken in the same 5 spots for each observation using a snow probe.
+  
+               
+    In 2018: Soil moisture was measured ~3 times per week between sand
+    application and snowmelt in both treatment and control plots.
+    Measurements were taken in the same 5 spots for each observation
+    using a handheld probe with 4.5" prongs. These measurements of
+    soil moisture were discontinued in 2019, when continuous
+    measurements were begun.
+  
+               
+    In 2020: We used a hand-held time domain reflectometry (TDR)
+    FieldScout probe (Spectrum Technologies, Inc, IL, U.S.A.) on three
+    different days in the late growing season (8/27, 9/1, 9/17) to take
+    five measurements of volumetric water content of the soil in each of
+    the 3 control and warming treatment subplots within each plot.
+  
+               
+    In 2018-2020 snowmelt was recorded in each pair of control and
+    warmed ITEX subplots (A,B, or C within Early and Control plots) by
+    visual observations.
+  
+               
+    To record snowmelt timing in 2021-2023 we put iButtons next to all
+    eight 1 x 0.5 m subplots and all six 1 x 1 m ITEX subplots in each
+    10 x 40 m plot. In September, iButtons were buried as shallowly as
+    possible (~1 cm) beneath the soil surface.
+  
+               
+    At all sites except Soddie, iButtons were placed in between adjacent
+    warmed and control subplot pairs, so that the iButton indicated as
+    being placed at ACWA is representative of both ACWA and ACCA.
+    However, at the Soddie site, paired subplots are not immediately
+    adjacent to each other. In 2021-2022, iButtons were placed next to
+    all 12 ITEX subplots at Soddie. In 2022-2023 there only 4 iButtons
+    for the six ITEX subplots in the Soddie Early Snowmelt plot, so
+    iButtons were placed at SEWA, SECB, in between SECA/SEWB, and in
+    between SEWC/SECC (labeled SEWC). ), iButtons were buried next to
+    the right side of the subplot, looking uphill, as close to center as
+    possible, except in a few subplots where it was not possible and
+    they were buried along the left side instead. iButtons were
+    retrieved as soon as possible after snowmelt the following field
+    season.
+  
+               
+    For 2021-2022, we could not find iButtons at subplots: AEWA, ECOS4,
+    LCOS1, LCOS4, LCOS5, LCOS8 and TEWA. The iButton at TCOS8 was found
+    but had been pulled up and was on the ground surface.
+  
+               
+    For 2022-2023, data did not download from iButtons at ACOS2, ACOS6,
+    LESS4, LESS5 and TCOS7. The iButtons at SECA/SEWB and SECB were not
+    found.
+  
+               
+    Relative locations of all vegetation subplots within plots were
+    measured in the summer of 2022. Diagram of measurements are included
+    as a pdf with this data package.
+  
+               
+    Black sand application dates follow:
+  
+               
+    2018:
+  
+               
+    Audubon black sand - May 7, 2018
+  
+               
+    Audubon control - July 16, 2018
+  
+               
+    East Knoll black sand - May 7, 2018
+  
+               
+    East Knoll control - July 16, 2018
+  
+               
+    Lefty black sand - May 7, 2018
+  
+               
+    Lefty control - July 16, 2018
+  
+               
+    Soddie black sand - May 8, 2018
+  
+               
+    Soddie control - July 16, 2018
+  
+               
+    Trough black sand - May 8, 2018
+  
+               
+    Trough control - July 16, 2018
+  
+               
+    2019:
+  
+               
+    Audubon black sand - June 3, 2019
+  
+               
+    Audubon control - August 21, 2019
+  
+               
+    East Knoll black sand - May 23, 2019
+  
+               
+    East Knoll control - August 19, 2019
+  
+               
+    Lefty black sand - June 3, 2019
+  
+               
+    Lefty control - August 19, 2019
+  
+               
+    Soddie black sand - May 23, 2019
+  
+               
+    Soddie control - August 21, 2019
+  
+               
+    Trough black sand - June 13, 2019
+  
+               
+    Trough control - August 19, 2019
+  
+               
+    2020:
+  
+               
+    Audubon black sand - May 18, 2020
+  
+               
+    Audubon control - August 17, 2020
+  
+               
+    East Knoll black sand - May 12, 2020
+  
+               
+    East Knoll control - August 3, 2020
+  
+               
+    Lefty black sand - May 18, 2020
+  
+               
+    Lefty control - August 17, 2020
+  
+               
+    Soddie black sand - May 18, 2020
+  
+               
+    Soddie control - August 22, 2020
+  
+               
+    Trough black sand - May 18, 2020
+  
+               
+    Trough control - August 22 &amp;23rd, 2020
+  
+               
+    2021:
+  
+               
+    Audubon black sand - May 4, 2021
+  
+               
+    Audubon control - July 15, 2021
+  
+               
+    East Knoll black sand - May 4, 2021
+  
+               
+    East Knoll control - June 30, 2021
+  
+               
+    Lefty black sand - May 4, 2021
+  
+               
+    Lefty control – July 15, 2021 (note some black sand applied to the
+    lower section of Lefty Control plots that still had snow on June 20
+    inadvertently; scraped off July 1 and July 2)
+  
+               
+    Soddie black sand - May 4, 2021
+  
+               
+    Soddie control - July 8, 2021
+  
+               
+    Trough black sand - May 6, 2021
+  
+               
+    Trough control – July 15, 2021
+  
+               
+    2022:
+  
+               
+    Audubon black sand - May 17, 2022
+  
+               
+    Audubon control - July 13, 2022
+  
+               
+    East Knoll black sand - May 9, 2022
+  
+               
+    East Knoll control - July 13, 2022
+  
+               
+    Lefty black sand - May 17, 2022
+  
+               
+    Lefty control - July 13, 2022
+  
+               
+    Soddie black sand - May 9, 2022
+  
+               
+    Soddie control - July 14, 2022
+  
+               
+    Trough black sand - May 17, 2022
+  
+               
+    Trough control – July 28, 2022
+  
+               
+    2023:
+  
+               
+    Audubon black sand - May 22, 2023
+  
+               
+    Audubon control - July 17 and July 18, 2023
+  
+               
+    East Knoll black sand - May 2, 2023
+  
+               
+    East Knoll control - July 13, 2023
+  
+               
+    Lefty black sand - May 22, 2023
+  
+               
+    Lefty control - July 14 (to majority of plot, which was already
+    snow-free) and July 26 (to late-melting area), 2023
+  
+               
+    Soddie black sand - May 22, 2023
+  
+               
+    Soddie control - July 14, 2023
+  
+               
+    Trough black sand - May 22, 2023
+  
+               
+    Trough control - July 14 (to majority of plot, which was already
+    snow-free) and July 26 (to late-melting area), 2023
+  
+               
+    Black sand was NOT applied in 2024, although snowdepth measurements
+    were taken in this year in order to understand the spatial variation
+    in snow in the absence of treatment effects.
+  
+            
+         
+      
+      
+         Niwot Ridge LTER
+         
+            University of Colorado
+            pointOfContact
+         
+         
+            National Science Foundation
+            2224439
+            LTER: Long-term research on the dynamics of high-elevation ecosystems: A framework for understanding rates of ecological response to climate change
+         
+         
+            National Science Foundation
+            1637686
+            LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change
+         
+      
+      
+         snow depth
+         snow depth at black sand experiment
+         
+            black_sand_snow_depth.cf.data.csv
+            152951
+            5d5ad928a46213a6565ef3c9e0cfab47
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/e4027c0073a167fd04464a75c6366e8d
+               
+            
+         
+         
+            
+               local_site
+               local_site
+               local site at Niwot Ridge LTER
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               snow_treatment
+               snow_treatment
+               snow treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control plots
+                           
+                           
+                              Early
+                              plots that were manipulated to accelerate snowmelt using black sand
+                           
+                        
+                     
+                  
+               
+            
+            
+               location
+               location
+               position of recurring measurements from top of slope to bottom of slope
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               distance_from_top
+               distance_from_top
+               position of recurring measurements in meters from top edge of plot
+               float
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  NaN
+                  no data
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               date
+               date
+               date
+               dateTime
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               snow_depth
+               snow_depth
+               snow depth
+               float
+               
+                  
+                     
+                        centimeter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  NaN
+                  no data
+               
+               
+                  >200
+                  greater than 200
+               
+               
+                  >250
+                  greater than 250
+               
+               
+                  >280
+                  greater than 280
+               
+               
+                  >300
+                  greater than 300
+               
+               
+                  >360
+                  greater than 360
+               
+               
+                  >400
+                  greater than 400
+               
+               
+                  >500
+                  greater than 500
+               
+               
+                  NaN
+                  no data
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/CentiM
+               
+            
+            
+               comments
+               comments
+               free form comments
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+               
+                  NaN
+                  no data
+               
+            
+         
+         2910
+      
+      
+         soil moisture 2018
+         soil moisture at black sand experiment in 2018
+         
+            black_sand_soil_moisture_2018.cf.data.csv
+            132742
+            afd379934418ebd0f705f166fe0315b1
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/25a9b425abe10496ea1d5aa333553093
+               
+            
+         
+         
+            
+               date
+               date
+               date
+               dateTime
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               local_site
+               local_site
+               local site at Niwot Ridge LTER
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               time_period
+               time_period
+               part of the growing season
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               snow_treatment
+               snow_treatment
+               snow treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control plots
+                           
+                           
+                              Early
+                              plots that were manipulated to accelerate snowmelt using black sand
+                           
+                        
+                     
+                  
+               
+            
+            
+               location
+               location
+               position of recurring measurements from top of slope to bottom of slope
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               rep
+               rep
+               replicate measurement times per sampling location
+               integer
+               
+                  
+                     
+                        number
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/NUM
+               
+            
+            
+               VWC
+               VWC
+               volumetric water content
+               float
+               
+                  
+                     
+                        percent
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+         
+         2177
+      
+      
+         soil moisture 2020
+         soil moisture at black sand experiment in 2020
+         
+            black_sand_soil_moisture_2020.cf.data.csv
+            37712
+            704c4df826218007a58179634b4e7082
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/b522cb5dc19faac4168abf14b097a54b
+               
+            
+         
+         
+            
+               local_site
+               local_site
+               local site at Niwot Ridge LTER
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               date
+               date
+               date
+               dateTime
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               snow_treatment
+               snow_treatment
+               snow treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control plots
+                           
+                           
+                              Early
+                              plots that were manipulated to accelerate snowmelt using black sand
+                           
+                        
+                     
+                  
+               
+            
+            
+               warm_treatment
+               warm_treatment
+               warming treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control subplots
+                           
+                           
+                              OTC
+                              subplot warmed using open top chambers
+                           
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               subplot
+               subplot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               VWC
+               VWC
+               volumetric water content
+               float
+               
+                  
+                     
+                        percent
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  NaN
+                  no data
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/PERCENT
+               
+            
+         
+         786
+      
+      
+         ibuttons
+         ibuttons deployed in black sand experiment subplots and ITEX subplots to determine snowmelt timing
+         
+            black_sand_ibuttons.js.data.csv
+            46485775
+            fdfbcef442f158a7187cf198daf876c1
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/171fb09b853e0a04ce37c0358bb8c069
+               
+            
+         
+         
+            
+               LTER_site
+               LTER site
+               LTER site
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               exp
+               experiment
+               experiment
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               data_yr
+               data year
+               data year
+               dateTime
+               
+                  
+                     YYYY
+                     
+                  
+               
+            
+            
+               local_site
+               local site
+               local site at Niwot Ridge LTER
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               snow_treatment
+               snow_treatment
+               snow treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control plots
+                           
+                           
+                              Early
+                              plots that were manipulated to accelerate snowmelt using black sand
+                           
+                        
+                     
+                  
+               
+            
+            
+               subplot_num
+               subplot number
+               subplot number or ITEX subplot ID
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               subplot
+               subplot full name
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               logger
+               logger ID
+               iButton serial number
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               start_date
+               start date
+               deployment date
+               dateTime
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               end_date
+               end date
+               collection date
+               dateTime
+               
+                  
+                     YYYY-MM-DD
+                     
+                  
+               
+            
+            
+               date_time
+               date-time
+               date-time of temperature measurment
+               dateTime
+               
+                  
+                     YYYY-MM-DD hh:mm:ss
+                     
+                  
+               
+            
+            
+               tempC
+               temperature C
+               temperature in degrees Celsius
+               float
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/DEG_C
+               
+            
+            
+               notes
+               notes
+               notes
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+         
+         383227
+      
+      
+         snowmelt timing
+         snowmelt timing in ITEX subplots within black sand experiment, as determined by visual inspection
+         
+            black_sand_itex_snowmelt.cf.data.csv
+            2881
+            f7d2f9992eb6e2e6048b12064e0d155d
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/60549f712fbe45f6e616332274731421
+               
+            
+         
+         
+            
+               LTER_site
+               LTER_site
+               LTER site
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               local_site
+               local_site
+               local site at Niwot Ridge LTER
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               year
+               year
+               year of measurement
+               date
+               
+                  
+                     YYYY
+                     
+                  
+               
+            
+            
+               snow_treatment
+               snow_treatment
+               snow treatment
+               string
+               
+                  
+                     
+                        
+                           
+                              Control
+                              control plots
+                           
+                           
+                              Early
+                              plots that were manipulated to accelerate snowmelt using black sand
+                           
+                        
+                     
+                  
+               
+            
+            
+               block
+               block
+               position within plot (A, B, or C)
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               snowmelt_doy
+               snowmelt_doy
+               timing of snowmelt as determined by visual inspection
+               integer
+               
+                  
+                     
+                        nominalDay
+                     
+                     
+                        whole
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/DAY
+               
+            
+         
+         72
+      
+      
+         subplot coordinates
+         measurements of relative locations of vegetation subplots within plots
+         
+            black_sand_subplot_locations.js.data.csv
+            10489
+            6a6e390d6bef1926626df92f422e2666
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/3dec8a0c172033f931efa5f7330b7524
+               
+            
+         
+         
+            
+               LTER_site
+               LTER site
+               LTER site
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               exp
+               experiment
+               experiment
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               site
+               site
+               site
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               treatment
+               treatment
+               treatment
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               subplot
+               subplot
+               subplot
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               x_coord
+               x coordinate
+               x coordinate of upper left corner
+               float
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               y_coord
+               y coordinate
+               y coordinate or upper left corner
+               float
+               
+                  
+                     
+                        meter
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  http://qudt.org/schema/qudt/hasUnit
+                  http://qudt.org/vocab/unit/M
+               
+            
+            
+               closest_sensor
+               closest sensor
+               closest sensor
+               integer
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+            
+               notes
+               notes
+               notes
+               string
+               
+                  
+                     
+                        
+                           any text
+                        
+                     
+                  
+               
+            
+         
+         180
+      
+      
+         subplot location methods
+         diagram of methods used to measure subplot locations
+         
+            black_sand_subplot_coord_measurement_diagram.pdf
+            77978
+            eb7d3a30c42a816902819a87dbe980d5
+            
+               
+                  Portable Document Format
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/4339da18453c7adb496fda9c5ba22856
+               
+            
+         
+         otherEntity
+      
+   
+   
+      
+         
+            
+               SI unit of length
+            
+            
+               .01 meters
+            
+            
+               a number
+            
+            
+               percent, one part per hundred parts
+            
+            
+               SI-derived unit of temperature
+            
+            
+               one day excluding leap seconds; 86400 seconds
+            
+         
+      
+   

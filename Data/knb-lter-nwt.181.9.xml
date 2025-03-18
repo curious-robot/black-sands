@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.181.9"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=nwt,o=EDI,dc=ecoinformatics,dc=org</principal>
+         <permission>read</permission>
+         <permission>write</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/d0f0eb82c4dfd90b21270710c82b16ce</alternateIdentifier><shortName>Black sand soil moisture and snowdepth</shortName>
+      <title>Soil moisture and snowdepth measurements in the Black Sand experiment for East Knoll, Audubon, Lefty, Soddie and Trough, 2018 - 2024.</title>
+      <creator>
+         <individualName>
+            <givenName>Chiara C.</givenName>
+            <surName>Forrester</surName>
+         </individualName>
+         <electronicMailAddress>chiara.forrester@colorado.edu</electronicMailAddress>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Jennifer F.</givenName>
+            <surName>Morse</surName>
+         </individualName>
+         <electronicMailAddress>jennifer.f.morse@colorado.edu&gt;</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-3207-3776</userId>
+      </creator>
+      <creator>
+         <organizationName>Niwot Ridge LTER</organizationName>
+         <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Cliff</givenName>
+            <surName>Bueno de Mesquita</surName>
+         </individualName>
+         <electronicMailAddress>cliff.buenodemesquita@colorado.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0002-2565-7100</userId>
+         <role>investigator</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Laurel</givenName>
+            <surName>Brigham</surName>
+         </individualName>
+         <electronicMailAddress>laurel.brigham@colorado.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0001-5592-9165</userId>
+         <role>investigator</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Jane G</givenName>
+            <surName>Smith</surName>
+         </individualName>
+         <electronicMailAddress>jane.g.smith@colorado.edu</electronicMailAddress>
+         <userId
+        directory="https://orcid.org">https://orcid.org/0000-0002-8457-4663</userId>
+         <role>field technician 2019-2023</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Henry</givenName>
+            <surName>Brandes</surName>
+         </individualName>
+         <electronicMailAddress>henry.brandes@gmail.com</electronicMailAddress>
+         <userId
+      directory="https://orcid.org">https://orcid.org/0000-0001-9619-0213</userId>
+         <role>field technician 2022</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Sander</givenName>
+            <surName>Aplet</surName>
+         </individualName>
+         <role>field technician</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>John Bryan</givenName>
+            <surName>Curtis</surName>
+         </individualName>
+         <role>field technician 2022</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Samuel</givenName>
+            <surName>Yevak</surName>
+         </individualName>
+         <role>field technician</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>T. Austin</givenName>
+            <surName>Willbern</surName>
+         </individualName>
+         <role>field technician</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>George</givenName>
+            <surName>Willis</surName>
+         </individualName>
+         <electronicMailAddress>george.willis@colorado.edu</electronicMailAddress>
+         <role>field technician 2023</role>
+      </associatedParty>
+      <pubDate>2024-09-03</pubDate>
+      <language>English</language>
+      <abstract>
+         <para>
+    The purpose of the Black Sand experiment is to measure treatment
+    effects on date of snowmelt on Niwot Ridge. Five sites with paired
+    plots (treatment and control) were implemented across Niwot as part
+    of the extended summer research program in order to understand the
+    effects of earlier snowmelt. This dataset contains measurements of
+    snowdepth throughout the melt season, manual measurements of
+    volumetric water content and temperature data as an indication of
+    snowmelt timing.
+  </para>
+      </abstract>
+      <keywordSet>
+         <keyword>snow depth</keyword>
+         <keyword>soil moisture</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>early snowmelt</keyword>
+         <keyword>extended summer</keyword>
+         <keyword>Niwot Ridge LTER</keyword>
+         <keyword>NWT</keyword>
+         <keyword>black sand experiment</keyword>
+      </keywordSet>
+      <intellectualRights>
+         <para>
+    This information is released under the Creative Commons license -
+    Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+    The consumer of these data (“Data User” herein) is required to cite
+    it appropriately in any publication that results from its use. The
+    Data User should realize that these data may be actively used by
+    others for ongoing research and that coordination may be necessary
+    to prevent duplicate publication. The Data User is urged to contact
+    the authors of these data if any questions about methodology or
+    results occur. Where appropriate, the Data User is encouraged to
+    consider collaboration or co-authorship with the authors. The Data
+    User should realize that misinterpretation of data may occur if used
+    out of context of the original study. While substantial efforts are
+    made to ensure the accuracy of data and associated documentation,
+    complete accuracy of data sets cannot be guaranteed. All data are
+    made available "as is." The Data User should be aware,
+    however, that data are updated periodically and it is the
+    responsibility of the Data User to check for new versions of the
+    data. The data authors and the repository where these data were
+    obtained shall not be liable for damages resulting from any use or
+    misinterpretation of the data. Thank you.
+  </para>
+      </intellectualRights>
+      <licensed>
+         <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+         <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+         <identifier>CC-BY-4.0</identifier>
+      </licensed>
+      <distribution
+      id="10.6073/pasta/d0f0eb82c4dfd90b21270710c82b16ce" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/d0f0eb82c4dfd90b21270710c82b16ce</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>East Knoll Black Sand Site</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.586153881112</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.585955658894</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.053629</northBoundingCoordinate>
+               <southBoundingCoordinate>40.053501</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Audubon Black Sand Site</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.590676934683</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.590266637118</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.061373</northBoundingCoordinate>
+               <southBoundingCoordinate>40.061362</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Lefty Black Sand Site</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.576888777675</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.576561110114</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.056</northBoundingCoordinate>
+               <southBoundingCoordinate>40.055926</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Soddie Black Sand Site</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.574688326404</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.574228710488</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.049396</northBoundingCoordinate>
+               <southBoundingCoordinate>40.04911</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <geographicCoverage>
+            <geographicDescription>Trough Black Sand Site</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-105.582522114563</westBoundingCoordinate>
+               <eastBoundingCoordinate>-105.582150350121</eastBoundingCoordinate>
+               <northBoundingCoordinate>40.050089</northBoundingCoordinate>
+               <southBoundingCoordinate>40.049691</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2018-05-08</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2024-07-30</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>Updated metadata methods to correct rates of black sand application; corrected site locations in metadata; appended 2019 data [SCE 13 Feb 2020]. Updated comments in 2019 snow depth data; appended 2020 snow depth data; added 2020 soil moisture data; aligned column names and local site abbreviations across datasets [SCE 8 June 2021]. Appended 2021 snow depth measurements; harmonized treatment codes across years [SCE 13 Aug 2021]. Appended 2022 snow depth measurements including new column of distance from top of plot, added Jennifer Morse and Niwot Ridge to author list as measurement has transitioned to NWT staff [SCE 29 Nov 2022]. Added ibutton data from 2022-2023 which can be used to infer snowmelt timing; corrected misentered sample year in 2020 moisture datatable; added ocular estimates of snowmelt timing from 2018-2020; aligned site abbreviation names across tables [SCE/JGS/CF 29 Mar 2023]. Added manual snow measurements from 2023 as well as 2023 field season ibutton data. [SCE 8 Dec 2023]. Added corrected 2023 ibutton data that rectifies Audubon/Lefty COS2/COS6 duplicate labeling questions; remaining files unchanged. [SCE 13 Feb 2024] Added 2024 snow depth data. [JFM/ SCE 3 Sept 2024]</description>
+      </maintenance>
+      <contact>
+         <organizationName>Niwot Ridge LTER</organizationName>
+         <positionName>Information Manager</positionName>
+         <address>
+            <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+            <deliveryPoint>University of Colorado</deliveryPoint>
+            <city>Boulder</city>
+            <administrativeArea>CO</administrativeArea>
+            <postalCode>80303</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+         <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+         <userId
+        directory="https://ror.org">https://ror.org/02ep77d74</userId>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+      directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <para>
+    We accelerated snowmelt in one plot of each block by adding
+    chemically inert black sand, while keeping the second plot as an
+    unmanipulated control (black sand was added to these plots after
+    snow had naturally melted). Five plots (each paired with treatment
+    and control) were implemented, with each plot measuring 40 x 10 m in
+    different locations. Snowmelt was accelerated in treatment plots
+    using of 567g/ m2 black sand spread on the snow surface, control
+    plots had the same amount of black sand applied after ambient
+    snowmelt. To test the interactive effects of warming together with
+    snowmelt, we established 3 control subplots per plot, and 3 subplots
+    with passive ITEX warming chambers per plot (each site thus had 3
+    control, 3 warming, 3 early snowmelt and 3 early snowmelt + warming
+    subplots).
+  </para>
+               <para>
+    Snow depth was measured ~3 times per week between sand application
+    and snowmelt in both treatment and control plots. Measurements were
+    taken in the same 5 spots for each observation using a snow probe.
+  </para>
+               <para>
+    In 2018: Soil moisture was measured ~3 times per week between sand
+    application and snowmelt in both treatment and control plots.
+    Measurements were taken in the same 5 spots for each observation
+    using a handheld probe with 4.5" prongs. These measurements of
+    soil moisture were discontinued in 2019, when continuous
+    measurements were begun.
+  </para>
+               <para>
+    In 2020: We used a hand-held time domain reflectometry (TDR)
+    FieldScout probe (Spectrum Technologies, Inc, IL, U.S.A.) on three
+    different days in the late growing season (8/27, 9/1, 9/17) to take
+    five measurements of volumetric water content of the soil in each of
+    the 3 control and warming treatment subplots within each plot.
+  </para>
+               <para>
+    In 2018-2020 snowmelt was recorded in each pair of control and
+    warmed ITEX subplots (A,B, or C within Early and Control plots) by
+    visual observations.
+  </para>
+               <para>
+    To record snowmelt timing in 2021-2023 we put iButtons next to all
+    eight 1 x 0.5 m subplots and all six 1 x 1 m ITEX subplots in each
+    10 x 40 m plot. In September, iButtons were buried as shallowly as
+    possible (~1 cm) beneath the soil surface.
+  </para>
+               <para>
+    At all sites except Soddie, iButtons were placed in between adjacent
+    warmed and control subplot pairs, so that the iButton indicated as
+    being placed at ACWA is representative of both ACWA and ACCA.
+    However, at the Soddie site, paired subplots are not immediately
+    adjacent to each other. In 2021-2022, iButtons were placed next to
+    all 12 ITEX subplots at Soddie. In 2022-2023 there only 4 iButtons
+    for the six ITEX subplots in the Soddie Early Snowmelt plot, so
+    iButtons were placed at SEWA, SECB, in between SECA/SEWB, and in
+    between SEWC/SECC (labeled SEWC). ), iButtons were buried next to
+    the right side of the subplot, looking uphill, as close to center as
+    possible, except in a few subplots where it was not possible and
+    they were buried along the left side instead. iButtons were
+    retrieved as soon as possible after snowmelt the following field
+    season.
+  </para>
+               <para>
+    For 2021-2022, we could not find iButtons at subplots: AEWA, ECOS4,
+    LCOS1, LCOS4, LCOS5, LCOS8 and TEWA. The iButton at TCOS8 was found
+    but had been pulled up and was on the ground surface.
+  </para>
+               <para>
+    For 2022-2023, data did not download from iButtons at ACOS2, ACOS6,
+    LESS4, LESS5 and TCOS7. The iButtons at SECA/SEWB and SECB were not
+    found.
+  </para>
+               <para>
+    Relative locations of all vegetation subplots within plots were
+    measured in the summer of 2022. Diagram of measurements are included
+    as a pdf with this data package.
+  </para>
+               <para>
+    Black sand application dates follow:
+  </para>
+               <para>
+    2018:
+  </para>
+               <para>
+    Audubon black sand - May 7, 2018
+  </para>
+               <para>
+    Audubon control - July 16, 2018
+  </para>
+               <para>
+    East Knoll black sand - May 7, 2018
+  </para>
+               <para>
+    East Knoll control - July 16, 2018
+  </para>
+               <para>
+    Lefty black sand - May 7, 2018
+  </para>
+               <para>
+    Lefty control - July 16, 2018
+  </para>
+               <para>
+    Soddie black sand - May 8, 2018
+  </para>
+               <para>
+    Soddie control - July 16, 2018
+  </para>
+               <para>
+    Trough black sand - May 8, 2018
+  </para>
+               <para>
+    Trough control - July 16, 2018
+  </para>
+               <para>
+    2019:
+  </para>
+               <para>
+    Audubon black sand - June 3, 2019
+  </para>
+               <para>
+    Audubon control - August 21, 2019
+  </para>
+               <para>
+    East Knoll black sand - May 23, 2019
+  </para>
+               <para>
+    East Knoll control - August 19, 2019
+  </para>
+               <para>
+    Lefty black sand - June 3, 2019
+  </para>
+               <para>
+    Lefty control - August 19, 2019
+  </para>
+               <para>
+    Soddie black sand - May 23, 2019
+  </para>
+               <para>
+    Soddie control - August 21, 2019
+  </para>
+               <para>
+    Trough black sand - June 13, 2019
+  </para>
+               <para>
+    Trough control - August 19, 2019
+  </para>
+               <para>
+    2020:
+  </para>
+               <para>
+    Audubon black sand - May 18, 2020
+  </para>
+               <para>
+    Audubon control - August 17, 2020
+  </para>
+               <para>
+    East Knoll black sand - May 12, 2020
+  </para>
+               <para>
+    East Knoll control - August 3, 2020
+  </para>
+               <para>
+    Lefty black sand - May 18, 2020
+  </para>
+               <para>
+    Lefty control - August 17, 2020
+  </para>
+               <para>
+    Soddie black sand - May 18, 2020
+  </para>
+               <para>
+    Soddie control - August 22, 2020
+  </para>
+               <para>
+    Trough black sand - May 18, 2020
+  </para>
+               <para>
+    Trough control - August 22 &amp;amp;23rd, 2020
+  </para>
+               <para>
+    2021:
+  </para>
+               <para>
+    Audubon black sand - May 4, 2021
+  </para>
+               <para>
+    Audubon control - July 15, 2021
+  </para>
+               <para>
+    East Knoll black sand - May 4, 2021
+  </para>
+               <para>
+    East Knoll control - June 30, 2021
+  </para>
+               <para>
+    Lefty black sand - May 4, 2021
+  </para>
+               <para>
+    Lefty control – July 15, 2021 (note some black sand applied to the
+    lower section of Lefty Control plots that still had snow on June 20
+    inadvertently; scraped off July 1 and July 2)
+  </para>
+               <para>
+    Soddie black sand - May 4, 2021
+  </para>
+               <para>
+    Soddie control - July 8, 2021
+  </para>
+               <para>
+    Trough black sand - May 6, 2021
+  </para>
+               <para>
+    Trough control – July 15, 2021
+  </para>
+               <para>
+    2022:
+  </para>
+               <para>
+    Audubon black sand - May 17, 2022
+  </para>
+               <para>
+    Audubon control - July 13, 2022
+  </para>
+               <para>
+    East Knoll black sand - May 9, 2022
+  </para>
+               <para>
+    East Knoll control - July 13, 2022
+  </para>
+               <para>
+    Lefty black sand - May 17, 2022
+  </para>
+               <para>
+    Lefty control - July 13, 2022
+  </para>
+               <para>
+    Soddie black sand - May 9, 2022
+  </para>
+               <para>
+    Soddie control - July 14, 2022
+  </para>
+               <para>
+    Trough black sand - May 17, 2022
+  </para>
+               <para>
+    Trough control – July 28, 2022
+  </para>
+               <para>
+    2023:
+  </para>
+               <para>
+    Audubon black sand - May 22, 2023
+  </para>
+               <para>
+    Audubon control - July 17 and July 18, 2023
+  </para>
+               <para>
+    East Knoll black sand - May 2, 2023
+  </para>
+               <para>
+    East Knoll control - July 13, 2023
+  </para>
+               <para>
+    Lefty black sand - May 22, 2023
+  </para>
+               <para>
+    Lefty control - July 14 (to majority of plot, which was already
+    snow-free) and July 26 (to late-melting area), 2023
+  </para>
+               <para>
+    Soddie black sand - May 22, 2023
+  </para>
+               <para>
+    Soddie control - July 14, 2023
+  </para>
+               <para>
+    Trough black sand - May 22, 2023
+  </para>
+               <para>
+    Trough control - July 14 (to majority of plot, which was already
+    snow-free) and July 26 (to late-melting area), 2023
+  </para>
+               <para>
+    Black sand was NOT applied in 2024, although snowdepth measurements
+    were taken in this year in order to understand the spatial variation
+    in snow in the absence of treatment effects.
+  </para>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>Niwot Ridge LTER</title>
+         <personnel>
+            <organizationName>University of Colorado</organizationName>
+            <role>pointOfContact</role>
+         </personnel>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <awardNumber>2224439</awardNumber>
+            <title>LTER: Long-term research on the dynamics of high-elevation ecosystems: A framework for understanding rates of ecological response to climate change</title>
+         </award>
+         <award>
+            <funderName>National Science Foundation</funderName>
+            <awardNumber>1637686</awardNumber>
+            <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+         </award>
+      </project>
+      <dataTable
+      id="e4027c0073a167fd04464a75c6366e8d" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>snow depth</entityName>
+         <entityDescription>snow depth at black sand experiment</entityDescription>
+         <physical>
+            <objectName>black_sand_snow_depth.cf.data.csv</objectName>
+            <size
+          unit="byte">152951</size>
+            <authentication
+              method="MD5">5d5ad928a46213a6565ef3c9e0cfab47</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/e4027c0073a167fd04464a75c6366e8d</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.1">
+               <attributeName>local_site</attributeName>
+               <attributeLabel>local_site</attributeLabel>
+               <attributeDefinition>local site at Niwot Ridge LTER</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.2">
+               <attributeName>snow_treatment</attributeName>
+               <attributeLabel>snow_treatment</attributeLabel>
+               <attributeDefinition>snow treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control plots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Early</code>
+                              <definition>plots that were manipulated to accelerate snowmelt using black sand</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.3">
+               <attributeName>location</attributeName>
+               <attributeLabel>location</attributeLabel>
+               <attributeDefinition>position of recurring measurements from top of slope to bottom of slope</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.4">
+               <attributeName>distance_from_top</attributeName>
+               <attributeLabel>distance_from_top</attributeLabel>
+               <attributeDefinition>position of recurring measurements in meters from top edge of plot</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NaN</code>
+                  <codeExplanation>no data</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.5">
+               <attributeName>date</attributeName>
+               <attributeLabel>date</attributeLabel>
+               <attributeDefinition>date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.6">
+               <attributeName>snow_depth</attributeName>
+               <attributeLabel>snow_depth</attributeLabel>
+               <attributeDefinition>snow depth</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>centimeter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NaN</code>
+                  <codeExplanation>no data</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;200</code>
+                  <codeExplanation>greater than 200</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;250</code>
+                  <codeExplanation>greater than 250</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;280</code>
+                  <codeExplanation>greater than 280</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;300</code>
+                  <codeExplanation>greater than 300</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;360</code>
+                  <codeExplanation>greater than 360</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;400</code>
+                  <codeExplanation>greater than 400</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>&gt;500</code>
+                  <codeExplanation>greater than 500</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>NaN</code>
+                  <codeExplanation>no data</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="CentiM">http://qudt.org/vocab/unit/CentiM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+      id="att.7">
+               <attributeName>comments</attributeName>
+               <attributeLabel>comments</attributeLabel>
+               <attributeDefinition>free form comments</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NaN</code>
+                  <codeExplanation>no data</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>2910</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="25a9b425abe10496ea1d5aa333553093" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>soil moisture 2018</entityName>
+         <entityDescription>soil moisture at black sand experiment in 2018</entityDescription>
+         <physical>
+            <objectName>black_sand_soil_moisture_2018.cf.data.csv</objectName>
+            <size
+          unit="byte">132742</size>
+            <authentication
+              method="MD5">afd379934418ebd0f705f166fe0315b1</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/25a9b425abe10496ea1d5aa333553093</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.8">
+               <attributeName>date</attributeName>
+               <attributeLabel>date</attributeLabel>
+               <attributeDefinition>date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.9">
+               <attributeName>local_site</attributeName>
+               <attributeLabel>local_site</attributeLabel>
+               <attributeDefinition>local site at Niwot Ridge LTER</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.10">
+               <attributeName>time_period</attributeName>
+               <attributeLabel>time_period</attributeLabel>
+               <attributeDefinition>part of the growing season</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.11">
+               <attributeName>snow_treatment</attributeName>
+               <attributeLabel>snow_treatment</attributeLabel>
+               <attributeDefinition>snow treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control plots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Early</code>
+                              <definition>plots that were manipulated to accelerate snowmelt using black sand</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.12">
+               <attributeName>location</attributeName>
+               <attributeLabel>location</attributeLabel>
+               <attributeDefinition>position of recurring measurements from top of slope to bottom of slope</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.13">
+               <attributeName>rep</attributeName>
+               <attributeLabel>rep</attributeLabel>
+               <attributeDefinition>replicate measurement times per sampling location</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="NUM">http://qudt.org/vocab/unit/NUM</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.14">
+               <attributeName>VWC</attributeName>
+               <attributeLabel>VWC</attributeLabel>
+               <attributeDefinition>volumetric water content</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="PERCENT">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>2177</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="b522cb5dc19faac4168abf14b097a54b" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>soil moisture 2020</entityName>
+         <entityDescription>soil moisture at black sand experiment in 2020</entityDescription>
+         <physical>
+            <objectName>black_sand_soil_moisture_2020.cf.data.csv</objectName>
+            <size
+          unit="byte">37712</size>
+            <authentication
+              method="MD5">704c4df826218007a58179634b4e7082</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/b522cb5dc19faac4168abf14b097a54b</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.15">
+               <attributeName>local_site</attributeName>
+               <attributeLabel>local_site</attributeLabel>
+               <attributeDefinition>local site at Niwot Ridge LTER</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.16">
+               <attributeName>date</attributeName>
+               <attributeLabel>date</attributeLabel>
+               <attributeDefinition>date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.17">
+               <attributeName>snow_treatment</attributeName>
+               <attributeLabel>snow_treatment</attributeLabel>
+               <attributeDefinition>snow treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control plots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Early</code>
+                              <definition>plots that were manipulated to accelerate snowmelt using black sand</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.18">
+               <attributeName>warm_treatment</attributeName>
+               <attributeLabel>warm_treatment</attributeLabel>
+               <attributeDefinition>warming treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control subplots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>OTC</code>
+                              <definition>subplot warmed using open top chambers</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.19">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>subplot</attributeLabel>
+               <attributeDefinition>subplot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.20">
+               <attributeName>VWC</attributeName>
+               <attributeLabel>VWC</attributeLabel>
+               <attributeDefinition>volumetric water content</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>percent</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NaN</code>
+                  <codeExplanation>no data</codeExplanation>
+               </missingValueCode>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="PERCENT">http://qudt.org/vocab/unit/PERCENT</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>786</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="171fb09b853e0a04ce37c0358bb8c069" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>ibuttons</entityName>
+         <entityDescription>ibuttons deployed in black sand experiment subplots and ITEX subplots to determine snowmelt timing</entityDescription>
+         <physical>
+            <objectName>black_sand_ibuttons.js.data.csv</objectName>
+            <size
+          unit="byte">46485775</size>
+            <authentication
+              method="MD5">fdfbcef442f158a7187cf198daf876c1</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/171fb09b853e0a04ce37c0358bb8c069</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.21">
+               <attributeName>LTER_site</attributeName>
+               <attributeLabel>LTER site</attributeLabel>
+               <attributeDefinition>LTER site</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.22">
+               <attributeName>exp</attributeName>
+               <attributeLabel>experiment</attributeLabel>
+               <attributeDefinition>experiment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.23">
+               <attributeName>data_yr</attributeName>
+               <attributeLabel>data year</attributeLabel>
+               <attributeDefinition>data year</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.24">
+               <attributeName>local_site</attributeName>
+               <attributeLabel>local site</attributeLabel>
+               <attributeDefinition>local site at Niwot Ridge LTER</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.25">
+               <attributeName>snow_treatment</attributeName>
+               <attributeLabel>snow_treatment</attributeLabel>
+               <attributeDefinition>snow treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control plots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Early</code>
+                              <definition>plots that were manipulated to accelerate snowmelt using black sand</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.26">
+               <attributeName>subplot_num</attributeName>
+               <attributeLabel>subplot number</attributeLabel>
+               <attributeDefinition>subplot number or ITEX subplot ID</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.27">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>subplot</attributeLabel>
+               <attributeDefinition>subplot full name</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.28">
+               <attributeName>logger</attributeName>
+               <attributeLabel>logger ID</attributeLabel>
+               <attributeDefinition>iButton serial number</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.29">
+               <attributeName>start_date</attributeName>
+               <attributeLabel>start date</attributeLabel>
+               <attributeDefinition>deployment date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.30">
+               <attributeName>end_date</attributeName>
+               <attributeLabel>end date</attributeLabel>
+               <attributeDefinition>collection date</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.31">
+               <attributeName>date_time</attributeName>
+               <attributeLabel>date-time</attributeLabel>
+               <attributeDefinition>date-time of temperature measurment</attributeDefinition>
+               <storageType>dateTime</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.32">
+               <attributeName>tempC</attributeName>
+               <attributeLabel>temperature C</attributeLabel>
+               <attributeDefinition>temperature in degrees Celsius</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="DEG_C">http://qudt.org/vocab/unit/DEG_C</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+      id="att.33">
+               <attributeName>notes</attributeName>
+               <attributeLabel>notes</attributeLabel>
+               <attributeDefinition>notes</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>383227</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="60549f712fbe45f6e616332274731421" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>snowmelt timing</entityName>
+         <entityDescription>snowmelt timing in ITEX subplots within black sand experiment, as determined by visual inspection</entityDescription>
+         <physical>
+            <objectName>black_sand_itex_snowmelt.cf.data.csv</objectName>
+            <size
+          unit="byte">2881</size>
+            <authentication
+              method="MD5">f7d2f9992eb6e2e6048b12064e0d155d</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/60549f712fbe45f6e616332274731421</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.34">
+               <attributeName>LTER_site</attributeName>
+               <attributeLabel>LTER_site</attributeLabel>
+               <attributeDefinition>LTER site</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.35">
+               <attributeName>local_site</attributeName>
+               <attributeLabel>local_site</attributeLabel>
+               <attributeDefinition>local site at Niwot Ridge LTER</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.36">
+               <attributeName>year</attributeName>
+               <attributeLabel>year</attributeLabel>
+               <attributeDefinition>year of measurement</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <dateTime>
+                     <formatString>YYYY</formatString>
+                     <dateTimeDomain/>
+                  </dateTime>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.37">
+               <attributeName>snow_treatment</attributeName>
+               <attributeLabel>snow_treatment</attributeLabel>
+               <attributeDefinition>snow treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Control</code>
+                              <definition>control plots</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Early</code>
+                              <definition>plots that were manipulated to accelerate snowmelt using black sand</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.38">
+               <attributeName>block</attributeName>
+               <attributeLabel>block</attributeLabel>
+               <attributeDefinition>position within plot (A, B, or C)</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.39">
+               <attributeName>snowmelt_doy</attributeName>
+               <attributeLabel>snowmelt_doy</attributeLabel>
+               <attributeDefinition>timing of snowmelt as determined by visual inspection</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>nominalDay</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+      label="Day">http://qudt.org/vocab/unit/DAY</valueURI>
+               </annotation>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>72</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="3dec8a0c172033f931efa5f7330b7524" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>subplot coordinates</entityName>
+         <entityDescription>measurements of relative locations of vegetation subplots within plots</entityDescription>
+         <physical>
+            <objectName>black_sand_subplot_locations.js.data.csv</objectName>
+            <size
+          unit="byte">10489</size>
+            <authentication
+              method="MD5">6a6e390d6bef1926626df92f422e2666</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/3dec8a0c172033f931efa5f7330b7524</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute
+          id="att.40">
+               <attributeName>LTER_site</attributeName>
+               <attributeLabel>LTER site</attributeLabel>
+               <attributeDefinition>LTER site</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.41">
+               <attributeName>exp</attributeName>
+               <attributeLabel>experiment</attributeLabel>
+               <attributeDefinition>experiment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.42">
+               <attributeName>site</attributeName>
+               <attributeLabel>site</attributeLabel>
+               <attributeDefinition>site</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.43">
+               <attributeName>treatment</attributeName>
+               <attributeLabel>treatment</attributeLabel>
+               <attributeDefinition>treatment</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+          id="att.44">
+               <attributeName>subplot</attributeName>
+               <attributeLabel>subplot</attributeLabel>
+               <attributeDefinition>subplot</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+              id="att.45">
+               <attributeName>x_coord</attributeName>
+               <attributeLabel>x coordinate</attributeLabel>
+               <attributeDefinition>x coordinate of upper left corner</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+              id="att.46">
+               <attributeName>y_coord</attributeName>
+               <attributeLabel>y coordinate</attributeLabel>
+               <attributeDefinition>y coordinate or upper left corner</attributeDefinition>
+               <storageType>float</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <annotation>
+                  <propertyURI
+              label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+                  <valueURI
+          label="M">http://qudt.org/vocab/unit/M</valueURI>
+               </annotation>
+            </attribute>
+            <attribute
+          id="att.47">
+               <attributeName>closest_sensor</attributeName>
+               <attributeLabel>closest sensor</attributeLabel>
+               <attributeDefinition>closest sensor</attributeDefinition>
+               <storageType>integer</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute
+      id="att.48">
+               <attributeName>notes</attributeName>
+               <attributeLabel>notes</attributeLabel>
+               <attributeDefinition>notes</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>any text</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>180</numberOfRecords>
+      </dataTable>
+      <otherEntity
+      id="4339da18453c7adb496fda9c5ba22856" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>subplot location methods</entityName>
+         <entityDescription>diagram of methods used to measure subplot locations</entityDescription>
+         <physical>
+            <objectName>black_sand_subplot_coord_measurement_diagram.pdf</objectName>
+            <size
+          unit="byte">77978</size>
+            <authentication
+              method="MD5">eb7d3a30c42a816902819a87dbe980d5</authentication>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>Portable Document Format</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/181/9/4339da18453c7adb496fda9c5ba22856</url>
+               </online>
+            </distribution>
+         </physical>
+         <entityType>otherEntity</entityType>
+      </otherEntity>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <unitList>
+            <unit
+          abbreviation="m" id="meter" multiplierToSI="1" name="meter"
+          unitType="length">
+               <description>SI unit of length</description>
+            </unit>
+            <unit
+          abbreviation="cm" id="centimeter" multiplierToSI="0.01"
+          name="centimeter"
+          parentSI="meter">
+               <description>.01 meters</description>
+            </unit>
+            <unit
+          id="number" name="number"
+          unitType="dimensionless">
+               <description>a number</description>
+            </unit>
+            <unit
+          abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent"
+          unitType="dimensionless">
+               <description>percent, one part per hundred parts</description>
+            </unit>
+            <unit
+          abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius"
+          parentSI="kelvin">
+               <description>SI-derived unit of temperature</description>
+            </unit>
+            <unit
+          id="nominalDay" multiplierToSI="86400" name="nominalDay"
+          parentSI="second" unitType="time">
+               <description>one day excluding leap seconds; 86400 seconds</description>
+            </unit>
+         </unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>
