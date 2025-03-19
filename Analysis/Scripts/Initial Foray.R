@@ -14,9 +14,9 @@ snowmelt = read_csv("../Scratch/snowmelt.csv")
 # Clean snowmelt data to match pollinator data
 
 names(snowmelt) = c("LTER", "site", "year", "treatment", "subplot", "melt_doy")
-snowmelt$site = recode(snowmelt$site, East_Knoll = "EastKnoll")
-snowmelt$block = recode(snowmelt$subplot, C = "E")
-snowmelt$block = recode(snowmelt$subplot, B = "C")
+snowmelt$site = case_match(snowmelt$site, "East_Knoll" ~ "EastKnoll", .default = snowmelt$site)
+snowmelt$subplot = case_match(snowmelt$subplot, "C"~"E", "B"~"C", .default = snowmelt$subplot)
+
 # ILLEGAL simulation of snowmelt day for the missing B and D subplots that were present
 # in Rose-Person's data but missing from the ITEX snowmelt data. Need to find a better
 # and responsible way to account for this. 
@@ -64,24 +64,26 @@ combined = select(combined, LTER, year, date, site, subplot, treatment, richness
 # Justify treatment as an instrumental variable by showing its correlation with snowmelt time/snowmelt advancement. 
 #############################
 
-snowmelt_graph <- snowmelt %>%
-  pivot_wider(names_from = treatment, values_from = melt_doy) %>%
-  mutate(diff = Control - Early) %>%
-  select(site, year, diff, subplot, diff)
+# Default lm regressing outcome on IV and other relevant factors. 
+snowmelt_lm = snowmelt %>%
+  group_by(site) %>%
+  lm(melt_doy ~ treatment + year + subplot, data = .)
+snowmelt_lm
 
-snowmelt_lm <- snowmelt %>%
-  group_by(subplot) %>%
-  lm(melt_doy ~ treatment + subplot + year + site, data = .)
+# Write the first stage of two stage procedure
+justify = lm(melt_doy ~ treatment + site + subplot, data = snowmelt)
 
-head(tidy(snowmelt_lm))
+# F test to see if the instrument explains enough of the explanatory variable
+justify_ftest <- waldtest(justify, .~.-treatment)
+print(justify_ftest)
 
-print(snowmelt_lm)
+# P-value is significant but F statistic is not super high so mid justification of IV
 
-ggplot(snowmelt_graph, aes(x = year, y = diff, color = site)) +
-  geom_point() +
-  geom_line(method = "lm", se = TRUE) +
-  labs(title = "Change in Snowmelt Difference by Year and Site",
-       x = "Year",
-       y = "Difference in Snowmelt Day",
-       color = "Site") +
-  theme_minimal()
+
+# IVreg function
+diversity_iv = combined %>%
+  ivreg(simpson_diversity ~ melt_doy + subplot + site | treatment + 
+          subplot + site, data = .)
+
+diversity_iv
+  
