@@ -2,6 +2,7 @@ library(tidyverse)
 library(vegan)
 library(ggpubr)
 library(broom)
+library(AER)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 flowercounts = read_csv("../Scratch/blacksand_flowercounts_2020.ar.data.csv")
@@ -65,12 +66,6 @@ combined = select(combined, LTER, year, date, site, subplot, treatment, richness
 #############################
 
 # Default lm regressing outcome on IV and other relevant factors. 
-snowmelt_lm = snowmelt %>%
-  group_by(site) %>%
-  lm(melt_doy ~ treatment + year + subplot, data = .)
-snowmelt_lm
-
-# Write the first stage of two stage procedure
 justify = lm(melt_doy ~ treatment + site + subplot, data = snowmelt)
 
 # F test to see if the instrument explains enough of the explanatory variable
