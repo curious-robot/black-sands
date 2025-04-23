@@ -1,0 +1,33 @@
+dag {
+bb="0,0,1,1"
+"# years sand applied" [pos="0.559,0.134"]
+"flower abundance" [outcome,pos="0.500,0.586"]
+"flower diversity" [pos="0.367,0.477"]
+"pollinator diversity" [outcome,pos="0.549,0.316"]
+"snowmelt day-of-year" [exposure,pos="0.303,0.302"]
+"soil composition" [latent,pos="0.376,0.171"]
+site [pos="0.175,0.532"]
+subplot [pos="0.297,0.681"]
+treatment [pos="0.126,0.320"]
+"# years sand applied" -> "snowmelt day-of-year"
+"# years sand applied" -> "soil composition"
+"flower abundance" -> "pollinator diversity"
+"flower diversity" -> "pollinator diversity"
+"snowmelt day-of-year" -> "flower abundance" [pos="0.477,0.444"]
+"snowmelt day-of-year" -> "flower diversity"
+"snowmelt day-of-year" -> "pollinator diversity"
+"soil composition" -> "flower abundance"
+"soil composition" -> "flower diversity"
+site -> "flower abundance"
+site -> "flower diversity"
+site -> "soil composition"
+site -> subplot
+site -> treatment
+subplot -> "flower abundance"
+subplot -> "flower diversity"
+subplot -> "snowmelt day-of-year" [pos="0.257,0.505"]
+subplot -> "soil composition"
+treatment -> "# years sand applied" [pos="0.128,0.065"]
+treatment -> "snowmelt day-of-year"
+treatment -> "soil composition" [pos="0.180,0.159"]
+}
