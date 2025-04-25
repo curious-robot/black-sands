@@ -18,14 +18,8 @@ visitors = read_csv("../Scratch/blacksand_visitors_2020.ar.data.csv")
 #snowmelt = read_csv("../Scratch/snowmelt.csv")
 snowdepth_raw = read_csv("../Scratch/black_sand_snow_depth.cf.data.csv")
 
-# Clean snowmelt data to match pollinator data -----
-
-names(snowmelt) = c("LTER", "site", "year", "treatment", "subplot", "melt_doy")
-snowmelt$site = case_match(snowmelt$site, "East_Knoll" ~ "EastKnoll", .default = snowmelt$site)
-snowmelt$subplot = case_match(snowmelt$subplot, "C"~"E", "B"~"C", .default = snowmelt$subplot)
-
 # Clean snowdepth data ------
-snowdepth_soddie = snowdepth_raw %>%
+snowdepth = snowdepth_raw %>%
   setNames(c("site", "treatment", "subplot", "distance_from_top", "date", "depth", "comments")) %>%
   filter(treatment != "", !is.na(treatment), depth != "NaN") %>%
   mutate(
@@ -42,24 +36,47 @@ snowdepth_soddie = snowdepth_raw %>%
     site = ifelse(site == "East_Knoll", "EastKnoll", site),
     # get day-of-year for each date
     doy = yday(date),
-    treatment = factor(treatment),
+    # convert snow depth
     depth = as.numeric(depth),
     # extract year from date
     year = format(as.Date(date, format="%Y/%m/%d"),"%Y")
   ) %>%
   # bind snowdepth data with topography data
-  left_join(topography, by = c("site", "subplot", "treatment")) 
+  left_join(topography, by = c("site", "subplot", "treatment")) %>%
+  mutate(treatment = as.factor(treatment))
 
-snowdepth = filter(snowdepth_soddie, site != "Soddie")
+snowdepth_soddie = filter(snowdepth, site != "Soddie")
+snowdepth_lefty = filter(snowdepth, site != "Lefty")
+snowdepth_three = filter(snowdepth, site != "Lefty" & site != "Soddie")
 
+
+snowmelt = snowdepth %>%
+  mutate(
+    plot = paste(site, subplot)
+  ) %>%
+  group_by(year, site, subplot, treatment) %>%
+  summarise(
+    melt_doy = if (any(depth == 0, na.rm = TRUE)) {
+      min(doy[depth == 0], na.rm = TRUE)
+    } else {
+      NA
+    },
+    .groups = "drop",
+    tpi11 = first(tpi11),
+    slope = first(slope),
+    elevation = first(elevation),
+    plot = first(plot)
+  ) %>%
+  filter(!is.na(melt_doy)) %>%
+  mutate(year = as.numeric(year))
 
 # Clean flower specie data ----------
 
 # Assess treatment as an IV Using GAM --------------
 # non linear gam model to assess the effect of treatment on the relationship between doy and depth.
-gam_model <- gam(
+gam_model = gam(
   # treatment is included as an "additive factor" to account for varried intercepts (overall deeper snow in treatment v control)
-  depth ~ s(doy, by = treatment) + site + treatment , 
+  depth ~ s(doy, by = treatment) + site + treatment, 
   data = snowdepth, 
   method = "REML"
 )
@@ -69,7 +86,7 @@ summary(gam_model)
 # non linear gam model to assess the relationship between doy and depth under "null" conditions (treatment not included in model)
 
 gam_null <- gam(
-  depth ~ s(doy) + treatment + site ,
+  depth ~ s(doy) + treatment + site,
   data = snowdepth,
   method = "REML"
 )
@@ -89,15 +106,7 @@ newdata_all <- expand.grid(
 # predict fitted values
 newdata_all$fit <- predict(gam_model, newdata = newdata_all, type = "response")
 
-# plot values.
-ggplot(newdata_all, aes(x = doy, y = fit, color = treatment)) +
-  geom_line(linewidth = 1.1) +
-  facet_wrap(~site) +
-  labs(title = "Predicted Snow Depth over Day of Year",
-       subtitle = "Split by Site and Treatment",
-       x = "Day of Year", y = "Predicted Snow Depth (cm)") +
-  theme_minimal()
-
+### plot predicted splines and snowdepth ~ doy data ------------
 ggplot() +
   geom_point(data = snowdepth, aes(x = doy, y = depth, color = treatment), alpha = 0.2) +
   geom_line(data = newdata_all, aes(x = doy, y = fit, color = treatment), size = 1.1) +
@@ -106,6 +115,18 @@ ggplot() +
        subtitle = "GAM Predictions with Raw Data",
        x = "Day of Year", y = "Snow Depth (cm)") +
   theme_minimal()
+
+### plot predicted values only.-----------
+ggplot(newdata_all, aes(x = doy, y = fit, color = treatment)) +
+  geom_line(linewidth = 1.1) +
+  facet_wrap(~site) +
+  labs(title = "Predicted Snow Depth over Day of Year",
+       subtitle = "Split by Site and Treatment",
+       x = "Day of Year", y = "Predicted Snow Depth (cm)") +
+  theme_minimal()
+
+
+
 # Get Species Observations -----------
 # Collapse species observations into counts at each subplot grouped by date, site, treatment.
 pollinators <- visitors %>%
@@ -115,83 +136,38 @@ pollinators <- visitors %>%
   mutate(
     richness = replace_na(specnumber(across(where(is.numeric), .names = "richness")), 0),
     simpson = replace_na(diversity(across(where(is.numeric)), index = "simpson"), 0 ),
-    doy = yday(date),
-    treatment = factor(treatment)
-  )
-
-# Justify Instrument Using ivreg() -----
-# Justify treatment as an instrumental variable by showing its correlation with snowmelt time/snowmelt advancement. 
-
-snowmelt_plot = snowdepth_soddie %>%
-  mutate(
-    year = year(date),
-    plot = paste(site, subplot)
-    ) %>%
-  group_by(year, plot, treatment) %>%
-  summarise(
-    melt_doy = if (any(depth == 0, na.rm = TRUE)) {
-      min(doy[depth == 0], na.rm = TRUE)
-    } else {
-      NA
-    },
-    .groups = "drop",
-    tpi11 = first(tpi11),
-    slope = first(slope),
-    elevation = first(elevation)
-  ) %>%
-  filter(!is.na(melt_doy))
-
-snowmelt_site = snowdepth_soddie %>%
-  mutate(
+    obs_doy = yday(date),
+    treatment = factor(treatment),
     year = year(date)
   ) %>%
-  group_by(year, subplot, site, treatment) %>%
-  summarise(
-    melt_doy = if (any(depth == 0, na.rm = TRUE)) {
-      min(doy[depth == 0], na.rm = TRUE)
-    } else {
-      NA
-    },
-    .groups = "drop",
-    tpi11 = first(tpi11),
-    slope = first(slope),
-    elevation = first(elevation)
-  ) %>%
-  filter(!is.na(melt_doy))
+  left_join(snowmelt, by = c("year", "site", "subplot", "treatment"))
 
+# Justify Instrument Using linear model -----
+# Justify treatment as an instrumental variable by showing its correlation with snowmelt time/snowmelt advancement. 
 # Default lm regressing treatment variable on IV and other relevant factors. 
-justify = lmer(melt_doy ~ treatment + (1 | subplot), data = snowmelt)
-justify = lm(melt_doy ~ treatment + plot + year, data = snowmelt_plot)
-justify = feols(simpson_diversity ~ 1 | melt_doy ~ treatment, data = combined)
+#justify = lmer(melt_doy ~ treatment + (1 | subplot), data = snowmelt)
+justify = lm(melt_doy ~ treatment + site + subplot + year, data = snowmelt)
+#justify = feols(simpson_diversity ~ 1 | melt_doy ~ treatment, data = combined)
 
 # F test to see if the instrument explains enough of the explanatory variable
 summary(justify)
 
-snowmelt_effect = ggplot(snowmelt_site, aes(x = treatment, y = melt_doy, fill = treatment)) +
+snowmelt_effect = ggplot(snowmelt, aes(x = factor(year), y = melt_doy, fill = treatment)) +
   geom_boxplot() +
   labs(title = "Snowmelt Day Comparison Between Control and Treatment",
        x = "Treatment",
        y = "Snowmelt Day of Year") +
   scale_fill_manual(values = c("Control" = "cyan", "Early" = "gray")) +  # Optional: choose your colors
   theme_minimal() +
-  facet_wrap(~ site) # Create a separate subplot for each site
+  facet_wrap(~ site) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 snowmelt_effect
 # P-value is significant but F statistic is not super high so mid justification of IV
-
-# Implement Instrument Using ivreg()--------------
-
-# IVreg function
-diversity_iv = ivreg(simpson_diversity ~ melt_doy + site + subplot | treatment + 
-          subplot + site, data = combined)
-
-diversity_iv_est = coef(summary(diversity_iv))["melt_doy", "Estimate"]
-
-
 # Implement Instrument Using GAM ------------
 
 gam_pollinator <- gam(
   # treatment is included as an "additive factor" to account for varried intercepts (overall deeper snow in treatment v control)
-  simpson ~ s(doy, by = treatment) + site + treatment + doy, 
+  simpson ~ s(doy, by = treatment) + site + treatment, 
   data = pollinators, 
   method = "REML"
 )
@@ -201,7 +177,7 @@ summary(gam_pollinator)
 # non linear gam model to assess the relationship between doy and depth under "null" conditions (treatment not included in model)
 
 gam_pollinator_null <- gam(
-  simpson ~ s(doy) + site + treatment + doy, 
+  simpson ~ s(doy) + site + year + treatment, 
   data = pollinators, 
   method = "REML"
 )
@@ -229,6 +205,28 @@ ggplot(plotdata, aes(x = doy, y = fit, color = treatment)) +
   labs(title = "Predicted Pollinator Simpson Diversity",
        subtitle = "Split by Site and Treatment",
        x = "Day of Year", y = "Predicted Simpson Diversity") +
+  theme_minimal()
+
+# IV with LSDV TWFE ----------
+
+twfe_lsdv = lm(richness ~ treatment + site + subplot, data = pollinators)
+summary(twfe_lsdv)
+
+tpi_snowmelt = lm(melt_doy ~ tpi11 + site + subplot, data = snowmelt)
+summary(tpi_snowmelt)
+
+ggplot() +
+  geom_point(data = snowmelt, aes(x = tpi11, y = melt_doy, color = treatment), alpha = 0.2) +
+  facet_wrap(~site) +
+  labs(title = "Predicted Pollinator Simpson Diversity",
+       subtitle = "Split by Site and Treatment",
+       x = "Day of Year", y = "Predicted Simpson Diversity") +
+  theme_minimal()
+
+ggplot(filter(snowmelt, year == 2020), aes(x = tpi11, fill = factor(treatment))) +
+  geom_density(alpha = 0.5) +
+  labs(x = "Subplot (A-E) TPI11", y = "Density", fill = "Treatment") +
+  facet_wrap(~subplot) +
   theme_minimal()
 
 # OLS Method -----------
